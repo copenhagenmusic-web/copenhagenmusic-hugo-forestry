@@ -17,7 +17,7 @@ name = "Forside"
 url = "/"
 weight = 1
 [params]
-addressline = "Copenhagen Musik address line"
+addressline = "Julius Andersens Vej 9, 2450 København SV"
 dateform = "Mon, Jan 2, 2006"
 description = ""
 email = "info@copenhagenmusic.dk"

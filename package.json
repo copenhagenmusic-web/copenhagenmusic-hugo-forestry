@@ -69,5 +69,10 @@
     "postcss-wcag-contrast": "^2.0.0",
     "postcss-zindex": "^2.2.0",
     "stream-series": "^0.1.1"
+  },
+  "dependencies": {
+    "gulp-filter": "^5.1.0",
+    "gulp-real-favicon": "^0.2.2",
+    "simplelightbox": "^1.12.1"
   }
 }

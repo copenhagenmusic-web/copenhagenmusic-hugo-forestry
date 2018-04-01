@@ -1,0 +1,60 @@
+
+@import "partials/normalize.css";
+@import "partials/vars.pcss";
+
+/* Responsive grid */
+
+.gallery {
+  margin-bottom: -20px;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-row-gap: 0px;
+}
+.gallery-image-container {
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+.gallery-image {
+  height: 100%;
+  transform: scale(1.05);  
+  transition: transform .35s ease;
+}
+.gallery a:hover .gallery-image {
+  transform: scale(1.10);
+}
+
+@media only screen and (min-width: 768px) {
+  .gallery {
+    grid-template-columns: 48% 48%;
+  }
+  .gallery-image-container {
+    height: 140px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .gallery {
+    grid-template-columns: 31% 31% 31%;
+  }
+  .gallery-image-container {
+    height: 170px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .gallery {
+    grid-template-columns: 23% 23% 23% 23%;
+  }
+  .gallery-image-container {
+    height: 200px;
+  }
+}
+
+/*
+Bootstrap media query sizes:
+small = (min-width:768px)
+medium = (min-width:992px)
+large = (min-width:1200px)
+*/

@@ -8,8 +8,8 @@ jobs:
       - image: circleci/node:7.10
 
     environment:
-      # Set the email address to use when commiting to repository
-      - OWNER_EMAIL: 
+      # Set the email address to use when committing to repository
+      - OWNER_EMAIL: nobody@example.com
       
     working_directory: ~/repo
 

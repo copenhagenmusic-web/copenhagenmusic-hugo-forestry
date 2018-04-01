@@ -1,0 +1,48 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: image
+  label: Image
+  type: file
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+- name: linkWebsite
+  label: Website Link
+  type: text
+  hidden: false
+  default: ''
+- name: contactEmail
+  label: Contact Email
+  type: text
+  hidden: false
+  default: ''
+- name: linkFacebook
+  label: Facebook Link
+  type: text
+  hidden: false
+  default: ''
+- name: linkInstagram
+  label: Instagram Link
+  type: text
+  hidden: false
+  default: ''
+- name: linkSoundcloud
+  label: Soundcloud Link
+  type: text
+  hidden: false
+  default: ''
+- name: weight
+  label: Order
+  type: number
+  hidden: false
+  default: ''

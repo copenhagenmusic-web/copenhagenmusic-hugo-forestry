@@ -1,0 +1,79 @@
+
+@import "partials/normalize.css";
+@import "partials/vars.pcss";
+
+.ensemble-card {
+  box-shadow: rgba(0,0,0,0.1) 0px 0px 4px;
+
+  div h3 {
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+.ensemble-card-image {
+  position: relative;
+}
+
+.ensemble-card-overlay {
+  position: absolute;
+  min-height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.ensemble-card:hover .ensemble-card-overlay {
+  background-color: #ba1d60;
+  opacity: 0.5;
+}
+
+/* Responsive grid */
+
+.ensemble-list {
+  margin-bottom: -20px;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-column-gap: 2%;
+  grid-row-gap: 25px;
+}
+.ensemble-card-image {
+  height: 150px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ensemble-list {
+    grid-template-columns: 48% 48%;
+    grid-column-gap: 2%;
+  }
+  .ensemble-card-image {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .ensemble-list {
+    grid-template-columns: 31% 31% 31%;
+    grid-column-gap: 2%;
+  }
+  .ensemble-card-image {
+    height: 230px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .ensemble-list {
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap: 2%;
+  }
+  .ensemble-card-image {
+    height: 260px;
+  }
+}
+
+/*
+Bootstrap media query sizes:
+small = (min-width:768px)
+medium = (min-width:992px)
+large = (min-width:1200px)
+*/

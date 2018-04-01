@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "head-meta.html" . }}
+</head>
+<body>
+  <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+<div id="barba-wrapper">
+<div class="barba-container">
+
+{{ partial "header.html" . }}
+
+<div class="main-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-1 col-md-7 col-md-offset-1 col-xs-8">
+        <h1>{{ .Title }}</h1>
+        <div class="text-muted advent" style="font-size: 24px; font-weight: 500; margin-top: -20px;">{{ .Description }}</div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-xs-4 lg-nopadding md-nopadding sm-nopadding">
+        {{ partial "ensemble-social.html" . }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12">
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12">
+        {{ partial "ensemble-gallery.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}
+
+</div>
+</div>
+
+{{ partial "footer-scripts.html" . }}
+
+</body>
+</html>

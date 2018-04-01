@@ -4198,6 +4198,10 @@ jpegtran-bin@^3.0.0:
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
 
+jquery@>=1.7.0:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+
 js-base64@^2.1.9:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.0.tgz#9e566fee624751a1d720c966cd6226d29d4025aa"
@@ -6613,6 +6617,12 @@ simple-swizzle@^0.2.2:
   resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
   dependencies:
     is-arrayish "^0.3.1"
+
+simplelightbox@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-1.12.1.tgz#676529fda1e6ac580f0a032a8aa9ad2ff4786128"
+  dependencies:
+    jquery ">=1.7.0"
 
 slash@^1.0.0:
   version "1.0.0"

@@ -1,0 +1,16 @@
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <a href="{{ .Site.BaseURL | absURL }}">
+        <img src="/images/copenhagenmusic-logotype-300x77.png" style="padding-top: 30px;"
+          width="300px" alt="Copenhagen Music">
+      </a>
+      <h3 class="advent">
+      {{ with index (where .Site.Pages "Title" "Home") 0 }}
+        {{ .Params.Subtitle }}
+      {{ end }}
+      </h3>
+    </div>    
+  </div>
+</div>

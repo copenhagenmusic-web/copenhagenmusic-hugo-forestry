@@ -1,0 +1,34 @@
+<div style="
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+align-items: center;
+flex-direction: row;
+margin-top: 30px;
+margin-right: 15px;">
+  {{ with .Params.linkWebsite }}
+  <a href="{{ . | safeURL }}">
+    <img width="30px" style="margin-right: 5px;" src="/images/linkto_website.svg" alt="Email" />
+  </a>
+  {{ end }}
+  {{ with .Params.contactEmail }}
+  <a href="mailto:{{ . }}">
+    <img width="30px" style="margin-bottom: 2px; margin-right: 5px;" src="/images/linkto_email.svg" alt="Email" />
+  </a>
+  {{ end }}
+  {{ with .Params.linkFacebook }}
+  <a href="{{ . | safeURL }}" target="_blank">
+    <img width="30px" style="margin-right: 2px;" src="/images/linkto_facebook.svg" alt="Facebook" />
+  </a>
+  {{ end }}
+  {{ with .Params.linkInstagram }}
+  <a href="{{ . | safeURL }}" target="_blank">
+    <img width="30px" style="margin-right: 3px;" src="/images/linkto_instagram.svg" alt="Instagram" />
+  </a>
+  {{ end }}
+  {{ with .Params.linkSoundcloud }}
+  <a href="{{ . | safeURL }}" target="_blank">
+    <img width="27px" style="margin-right: 3px;" src="/images/linkto_soundcloud.svg" alt="Soundcloud" />
+  </a>
+  {{ end }}
+</div>

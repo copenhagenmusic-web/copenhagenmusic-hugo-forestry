@@ -1,4 +1,4 @@
-baseurl = "https://websitename.github.io/"
+baseurl = "https://copenhagenmusic-web.github.io/"
 canonifyurls = false
 copyright = "Open Source under the MIT license."
 disableKinds = ["RSS", "404", "taxonomyTerm", "taxonomy"]
@@ -8,22 +8,23 @@ languageCode = "en-us"
 paginate = 10
 relativeurls = false
 theme = "startbootstrap-clean-blog"
-title = "Website Title"
+title = "Copenhagen Music"
 [author]
-name = ""
+name = "Copenhagen Music"
 [[menu.main]]
 identifier = "home"
-name = "Home"
+name = "Forside"
 url = "/"
 weight = 1
 [params]
 dateform = "Mon, Jan 2, 2006"
 description = ""
-email = "...@users.noreply.github.com"
+addressLine = "Copenhagen Musik address line"
+email = "info@copenhagenmusic.dk"
 image = "/uploads/2018/01/01/unsplash-garrett-parker-247225.jpg"
 [[params.social]]
 title = "facebook"
-url = "https://www.facebook.com/FACEBOOKHANDLE"
+url = "https://www.facebook.com/copenhagenmusic.dk"
 [taxonomies]
 category = "categories"
 tag = "tags"

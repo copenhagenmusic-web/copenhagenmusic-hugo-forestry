@@ -1,3 +1,0 @@
-.preloader .loader-image-anim {
-    background-image: url('$inline("../images/loading.gif|dataurl:image/gif")')
-}

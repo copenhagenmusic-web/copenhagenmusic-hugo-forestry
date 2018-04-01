@@ -39,6 +39,10 @@ initFunctions.push(function() {
   }
 });
 
+initFunctions.push(function() {
+  var lightbox = $('.gallery a').simpleLightbox();
+});
+
 let init = function() {
   for (let i = 0; i < initFunctions.length; i++) {
     initFunctions[i]();

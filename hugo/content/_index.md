@@ -1,7 +1,7 @@
 ---
 title: Home
 type: page
-image: ""
+image: ''
 subtitle: Vi får musikken til at spille
 
 ---

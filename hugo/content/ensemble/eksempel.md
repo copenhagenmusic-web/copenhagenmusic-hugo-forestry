@@ -1,15 +1,15 @@
 +++
-image = "/uploads/2018/01/01/unsplash-brandon-lam-29892.jpg"
-title = "Eksempel Ensemble"
-type = "ensemble"
-weight = 1
-gallery = ["/uploads/2018/01/01/unsplash-brandon-lam-29892.jpg", "/uploads/2018/01/01/unsplash-jason-wong-292853.jpg", "/uploads/2018/01/01/unsplash-garrett-parker-247225.jpg"]
+contactEmail = "nobody@example.com"
 description = "Kor"
-linkWebsite = "google.com"
+gallery = ["/uploads/2018/01/01/unsplash-brandon-lam-29892.jpg", "/uploads/2018/01/01/unsplash-jason-wong-292853.jpg", "/uploads/2018/01/01/unsplash-garrett-parker-247225.jpg"]
+image = "/uploads/2018/01/01/unsplash-brandon-lam-29892.jpg"
 linkFacebook = "http://facebook.com/website"
 linkInstagram = "http://instagram.com/website"
 linkSoundcloud = ""
-contactEmail = "nobody@example.com"
+linkWebsite = "google.com"
+title = "Eksempel Ensemble"
+weight = 1
+
 +++
 Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
 

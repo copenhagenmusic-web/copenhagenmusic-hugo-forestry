@@ -17,9 +17,9 @@ name = "Forside"
 url = "/"
 weight = 1
 [params]
+addressline = "Copenhagen Musik address line"
 dateform = "Mon, Jan 2, 2006"
 description = ""
-addressLine = "Copenhagen Musik address line"
 email = "info@copenhagenmusic.dk"
 image = "/uploads/2018/01/01/unsplash-garrett-parker-247225.jpg"
 [[params.social]]

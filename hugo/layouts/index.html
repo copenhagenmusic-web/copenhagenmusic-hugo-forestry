@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="no-js" lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "head-meta.html" . }}
+
+  <!-- Inlined stylesheet for preloader -->
+  <style type="text/css" media="all">
+.preloader{position:fixed;z-index:99999;height:100%;width:100%;overflow:hidden!important;background-color:#fff;display:flex;justify-content:center;align-items:center}.preloader .loader-anim{position:relative;width:150px}.preloader .loader-anim span{font-family:'Times New Roman',sans-serif;position:absolute;width:30px;height:30px;background:#ba1d6b;opacity:1;border-radius:20px;animation:preloader_anim 1s infinite ease-in-out;text-align:center;color:#fff;font-weight:500}.preloader .loader-anim span:nth-child(2){left:30px;animation-delay:.2s}.preloader .loader-anim span:nth-child(3){left:60px;animation-delay:.4s}.preloader .loader-anim span:nth-child(4){left:90px;animation-delay:.6s}.preloader .loader-anim span:nth-child(5){left:120px;animation-delay:.8s}@keyframes preloader_anim{0%{opacity:1;transform:translateY(0);box-shadow:0 0 3px rgba(0,0,0,.1)}50%{opacity:1;transform:translateY(-10px);background:#ba1d6b;box-shadow:0 20px 3px rgba(0,0,0,.05)}100%{opacity:1;transform:translateY(0);box-shadow:0 0 3px rgba(0,0,0,.1)}}
+  </style>
+
+  <!-- Inlined stylesheet for inlined-images -->
+  <style type="text/css" media="all">
+
+  </style>  
+</head>
+<body>
+  <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+<div class="preloader">
+    <div class="loader-anim">
+        <span>𝄞</span>
+        <span>𝄞</span>
+        <span>𝄞</span>
+        <span>𝄞</span>
+        <span>𝄞</span>
+    </div>
+</div>
+
+<div id="barba-wrapper">
+<div class="barba-container">
+
+{{ partial "header.html" . }}
+
+<article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  {{ partial "ensemble-list.html" . }}
+</article>
+
+{{ partial "footer.html" . }}
+
+</div>
+</div>
+
+{{ partial "footer-scripts.html" . }}
+
+<!-- Inlined javascript for preloader -->
+<script type="text/javascript">
+// preloader.js
+
+(function ($, window) {
+  $(window).load(function () {
+    // First fade out the loading divs
+    $('.preloader div').delay(600).fadeOut('slow');
+
+    // Fade out the whole DIV that covers the website.
+    $('.preloader').delay(600).fadeOut('slow');
+  });
+})(jQuery, window);
+</script>
+
+</body>
+</html>

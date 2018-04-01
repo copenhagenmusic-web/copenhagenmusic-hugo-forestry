@@ -42,7 +42,10 @@ fields:
   hidden: false
   default: ''
 - name: weight
-  label: Order
+  label: Order (on frontpage)
   type: number
   hidden: false
-  default: ''
+  default: '1'
+- type: image_gallery
+  name: gallery
+  label: Gallery

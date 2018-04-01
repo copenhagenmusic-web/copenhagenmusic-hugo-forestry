@@ -1,59 +1,25 @@
 
 <div class="gallery">
-  <a class="no-barba" href="/images/2018/01/01/unsplash-garrett-parker-247225-1920x.jpg">
-    <div class="gallery-image-container">
-      <div class="gallery-image" data-responsive-background-image>
-        {{ partial "image-srcset" (dict "path" "/images/2018/01/01/unsplash-garrett-parker-247225-320x.jpg" "sizes" "25vw, (max-width: 768px) 100vw") }}
+  {{ range .Params.gallery }}
+  {{ $path := . }}
+
+  {{ if hasPrefix $path "/uploads/" }}
+    {{ $ext := index (findRE "\\.[^\\.]*$" $path 1) 0 }}
+    {{ $extLower := $ext | lower }}
+    {{ $filename := ($path | strings.TrimPrefix "/uploads/") | strings.TrimSuffix $ext }}
+
+    {{/* formatStr is ('/images/') filename ('-') size ('x') extension, */}}
+    {{ $formatStr := "/images/%s-%sx%s" }}
+    {{ $fullsize := "1920" }}  
+    <a class="no-barba" href="{{ (printf $formatStr $filename $fullsize $extLower) | relURL }}">
+  {{ else }}
+    <a class="no-barba" href="{{ $path | relURL }}">
+  {{ end }}
+      <div class="gallery-image-container">
+        <div class="gallery-image" data-responsive-background-image>
+          {{ partial "image-srcset" (dict "path" . "sizes" "25vw, (max-width: 768px) 50vw") }}
+        </div>
       </div>
-    </div>
-  </a>
-  <a class="no-barba" href="/images/2018/01/01/unsplash-jason-wong-292853-1920x.jpg">
-    <div class="gallery-image-container">
-      <div class="gallery-image" data-responsive-background-image>
-        {{ partial "image-srcset" (dict "path" "/images/2018/01/01/unsplash-jason-wong-292853-320x.jpg" "sizes" "25vw, (max-width: 768px) 100vw") }}
-      </div>
-    </div>
-  </a>
-  <a class="no-barba" href="/images/2018/01/01/unsplash-jonatan-pie-234237-1920x.jpg">
-    <div class="gallery-image-container">
-      <div class="gallery-image" data-responsive-background-image>
-        {{ partial "image-srcset" (dict "path" "/images/2018/01/01/unsplash-jonatan-pie-234237-320x.jpg" "sizes" "25vw, (max-width: 768px) 100vw") }}
-      </div>
-    </div>
-  </a>
-  <a class="no-barba" href="/images/2018/01/01/unsplash-brandon-lam-29892-1920x.jpg">
-    <div class="gallery-image-container">
-      <div class="gallery-image" data-responsive-background-image>
-        {{ partial "image-srcset" (dict "path" "/images/2018/01/01/unsplash-brandon-lam-29892-320x.jpg" "sizes" "25vw, (max-width: 768px) 100vw") }}
-      </div>
-    </div>
-  </a>
-  <a class="no-barba" href="/images/2018/01/01/unsplash-jason-wong-292853-1920x.jpg">
-    <div class="gallery-image-container">
-      <div class="gallery-image" data-responsive-background-image>
-        {{ partial "image-srcset" (dict "path" "/images/2018/01/01/unsplash-jason-wong-292853-320x.jpg" "sizes" "25vw, (max-width: 768px) 100vw") }}
-      </div>
-    </div>
-  </a>
-  <a class="no-barba" href="/images/2018/01/01/unsplash-jonatan-pie-234237-1920x.jpg">
-    <div class="gallery-image-container">
-      <div class="gallery-image" data-responsive-background-image>
-        {{ partial "image-srcset" (dict "path" "/images/2018/01/01/unsplash-jonatan-pie-234237-320x.jpg" "sizes" "25vw, (max-width: 768px) 100vw") }}
-      </div>
-    </div>
-  </a>
-  <a class="no-barba" href="/images/2018/01/01/unsplash-brandon-lam-29892-1920x.jpg">
-    <div class="gallery-image-container">
-      <div class="gallery-image" data-responsive-background-image>
-        {{ partial "image-srcset" (dict "path" "/images/2018/01/01/unsplash-brandon-lam-29892-320x.jpg" "sizes" "25vw, (max-width: 768px) 100vw") }}
-      </div>
-    </div>
-  </a>
-  <a class="no-barba" href="/images/2018/01/01/unsplash-garrett-parker-247225-1920x.jpg">
-    <div class="gallery-image-container">
-      <div class="gallery-image" data-responsive-background-image>
-        {{ partial "image-srcset" (dict "path" "/images/2018/01/01/unsplash-garrett-parker-247225-320x.jpg" "sizes" "25vw, (max-width: 768px) 100vw") }}
-      </div>
-    </div>
-  </a>
+    </a>
+  {{ end }}
 </div>

@@ -27,7 +27,7 @@ jobs:
 
       # Store yarn / node cache
       - save_cache:
-          key: v1-dependencies-{{ checksum "package.json" }}
+          key: v2-dependencies-{{ checksum "package.json" }}
           paths:
             - ~/.cache/yarn
             - node_modules

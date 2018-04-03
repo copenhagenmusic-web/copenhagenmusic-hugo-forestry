@@ -35,31 +35,28 @@ echo "--- Git fetch '$targetbranch' ---"
             # Make merge commit, resolve all conflicts as the target branch
             git checkout $targetbranch
 
-            # Checkout can fail due to yarn.lock file (or other build-time results)
+            # Checkout can fail due to changed yarn.lock file
             currentbranch=`git rev-parse --abbrev-ref HEAD`
             if [ $currentbranch != $targetbranch ]
             then
-            echo "Performing stash, checkout, apply and commit"
-                git stash
-                git checkout $targetbranch
-                git stash apply
-                git add *
-                
+                git add yarn.lock
                 git status --untracked-files=no | grep -q "nothing to commit"
                 if [ $? -eq 0 ]
                 then
-                    echo "No new build artifacts to commit."
+                    echo "No build artifact to commit."
                 else
-                    git commit -m "Automatic commit of changed build artifacts" -m "[skip ci]"
+                    git commit -m "Automatic commit of build artifact" -m "[skip ci]"
+                    git checkout $targetbranch
                 fi
-            fi
-
-            # Make sure we correctly changed branch now
-            currentbranch=`git rev-parse --abbrev-ref HEAD`
-            if [ $currentbranch != $targetbranch ]
-            then
-                echo "Unable to checkout branch '$targetbranch'"
-                exit 1
+                
+                # Make sure we correctly changed branch now
+                currentbranch=`git rev-parse --abbrev-ref HEAD`
+                if [ $currentbranch != $targetbranch ]
+                then
+                    echo "Unable to checkout branch '$targetbranch'"
+                    exit 1
+                fi
+                echo "Success"
             fi
 
             echo

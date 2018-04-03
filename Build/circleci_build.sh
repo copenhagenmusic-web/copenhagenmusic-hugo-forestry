@@ -43,7 +43,15 @@ echo "--- Git fetch '$targetbranch' ---"
                 git stash
                 git checkout $targetbranch
                 git stash apply
-                git commit -m "Automatic commit of changed build artifacts" -m "[skip ci]"
+                git add *
+                
+                git status --untracked-files=no | grep -q "nothing to commit"
+                if [ $? -eq 0 ]
+                then
+                    echo "No new build artifacts to commit."
+                else
+                    git commit -m "Automatic commit of changed build artifacts" -m "[skip ci]"
+                fi
             fi
 
             # Make sure we correctly changed branch now

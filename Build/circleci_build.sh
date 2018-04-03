@@ -34,6 +34,26 @@ echo "--- Git fetch '$targetbranch' ---"
         else
             # Make merge commit, resolve all conflicts as the target branch
             git checkout $targetbranch
+
+            # Checkout can fail due to yarn.lock file (or other build-time results)
+            currentbranch=`git rev-parse --abbrev-ref HEAD`
+            if [ $currentbranch != $targetbranch ]
+            then
+            echo "Performing stash, checkout, apply and commit"
+                git stash
+                git checkout $targetbranch
+                git stash apply
+                git commit -m "Automatic commit of changed build artifacts" -m "[skip ci]"
+            fi
+
+            # Make sure we correctly changed branch now
+            currentbranch=`git rev-parse --abbrev-ref HEAD`
+            if [ $currentbranch != $targetbranch ]
+            then
+                echo "Unable to checkout branch '$targetbranch'"
+                exit 1
+            fi
+
             echo
             echo "--- Git merge to '$targetbranch' ---"
 
@@ -67,7 +87,7 @@ if [ -z "$OWNER_EMAIL" ]
 then
     echo
     echo "OWNER_EMAIL not set in .circleci/config.yml - exiting."
-    exit 0
+    exit 1
 fi
 
 echo

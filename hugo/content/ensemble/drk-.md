@@ -1,6 +1,6 @@
 +++
 contactEmail = "kontakt@drkbrass.dk"
-date = "2018-04-09T20:46:52+00:00"
+date = "2018-04-09T20:46:52Z"
 description = "Riot jazz/brass punk"
 gallery = ["/uploads/2018/04/09/DRK 3.jpg", "/uploads/2018/04/09/DRK 1.jpg", "/uploads/2018/04/09/DRK 4.jpg", "/uploads/2018/04/09/DRK 2.jpg"]
 image = "/uploads/2018/04/09/DRK 3.jpg"

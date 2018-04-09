@@ -1,5 +1,5 @@
 +++
-date = "2018-04-09T21:04:00+00:00"
+date = "2018-04-09T21:04:00Z"
 draft = true
 image = ""
 subtitle = ""

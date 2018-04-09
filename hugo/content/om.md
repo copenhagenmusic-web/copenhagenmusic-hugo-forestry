@@ -1,5 +1,5 @@
 +++
-date = "2018-04-09T20:55:23+00:00"
+date = "2018-04-09T20:55:23Z"
 image = ""
 subtitle = ""
 title = "Om Copenhagen Music"

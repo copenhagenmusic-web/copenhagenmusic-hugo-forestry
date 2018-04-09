@@ -1,6 +1,6 @@
 +++
 contactEmail = ""
-date = "2018-04-09T20:46:52+00:00"
+date = "2018-04-09T20:46:52Z"
 description = ""
 draft = true
 gallery = []

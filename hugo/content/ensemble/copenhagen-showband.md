@@ -1,6 +1,6 @@
 +++
 contactEmail = ""
-date = "2018-04-09T20:47:28Z"
+date = "2018-04-09T20:47:28+00:00"
 description = ""
 draft = true
 gallery = []
@@ -10,6 +10,6 @@ linkInstagram = ""
 linkSoundcloud = ""
 linkWebsite = ""
 title = "Copenhagen Showband"
-weight = 1
+weight = 5
 
 +++

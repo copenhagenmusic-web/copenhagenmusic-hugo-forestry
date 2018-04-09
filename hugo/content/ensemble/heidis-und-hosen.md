@@ -2,7 +2,7 @@
 contactEmail = ""
 date = "2018-04-09T20:48:46+00:00"
 description = "Polkaband"
-gallery = ["/uploads/2018/04/09/heidis 4.jpg", "/uploads/2018/04/09/heidis 3.jpg", "/uploads/2018/04/09/heidis 1.jpg"]
+gallery = []
 image = "/uploads/2018/04/09/heidis 1 (2)-1.jpg"
 linkFacebook = "https://www.facebook.com/Heidisundhosen/"
 linkInstagram = ""

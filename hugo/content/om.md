@@ -4,6 +4,8 @@ image = ""
 subtitle = ""
 title = "Om Copenhagen Music"
 type = "page"
+[menu.main]
+weight = 1
 
 +++
 Copenhagen Music er Københavns store musikforening for orkestre og kor.

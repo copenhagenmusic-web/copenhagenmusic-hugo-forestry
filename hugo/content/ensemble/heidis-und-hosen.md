@@ -1,6 +1,6 @@
 +++
 contactEmail = ""
-date = "2018-04-09T20:48:46Z"
+date = "2018-04-09T20:48:46+00:00"
 description = "Polkaband"
 gallery = []
 image = "/uploads/2018/04/09/heidis 1 (2)-1.jpg"
@@ -9,7 +9,7 @@ linkInstagram = ""
 linkSoundcloud = ""
 linkWebsite = "http://heidisundhosen.dk/"
 title = "Heidis und Hosen"
-weight = 1
+weight = 7
 
 +++
 Tyrolermusik på den fede måde!

@@ -9,7 +9,7 @@ linkInstagram = "https://www.instagram.com/roestcph/"
 linkSoundcloud = "https://soundcloud.com/user-303525625"
 linkWebsite = "www.roestkbh.dk"
 title = "Røst"
-weight = 1
+weight = 9
 
 +++
 Røst er pop, du næsten kender.  

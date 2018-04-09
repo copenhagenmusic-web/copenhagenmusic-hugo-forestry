@@ -1,5 +1,6 @@
 ---
 pages:
+- om.md
 - _index.md
 hide_body: false
 fields:

@@ -1,6 +1,5 @@
 +++
 date = "2018-04-09T21:04:00Z"
-draft = true
 image = ""
 subtitle = ""
 title = "Ledelsesgruppen"
@@ -18,15 +17,15 @@ Martin Bjergfelt<br>
 Mobil: 23810893<br>
 martin@bjergfelt.com
 
-<strong>Aktivitetsansvarlig</strong><br>
-Lisa Ryberg Pedersen<br>
-Mobil: 31381257<br>
-lisarype@gmail.com
+<strong>Aktivitetsansvarlig</strong>
+Person Navn<br>
+Mobil: tlf<br>
+person@mail.com
 
 <strong>Manager</strong><br>
-Nicklas Dyrvig<br>
-Mobil: 41953302<br>
-nd@copenhagenmusic.dk
+Lisa Ryberg Pedersen<br>
+Mobil: 31381257<br>
+lp@copenhagenmusic.dk
 
 <strong>Medlem af ledelsen</strong><br>
 Karsten Løgstrup<br>

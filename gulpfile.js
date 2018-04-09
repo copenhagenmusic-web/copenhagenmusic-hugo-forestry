@@ -215,7 +215,7 @@ gulp.task('custoModernizr', () => {
 //
 // Copy other assets like icons and txt files from src to hugo/static
 gulp.task('copy', () => {
-  return gulp.src('src/*.*', { since: gulp.lastRun('copy') })
+  return gulp.src('src/*', { since: gulp.lastRun('copy') })
     .pipe(gulp.dest('hugo/static/'));
 });
 

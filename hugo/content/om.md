@@ -5,7 +5,7 @@ subtitle = ""
 title = "Om Copenhagen Music"
 type = "page"
 [menu.main]
-weight = 1
+weight = 2
 
 +++
 # Om Copenhagen Music

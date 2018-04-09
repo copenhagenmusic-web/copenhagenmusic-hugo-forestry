@@ -5,6 +5,8 @@ image = ""
 subtitle = ""
 title = "Ledelsesgruppen"
 type = "page"
+[menu.main]
+weight = 1
 
 +++
 # Ledelsesgruppen

@@ -1,15 +1,19 @@
 +++
-contactEmail = ""
-date = "2018-04-09T20:48:01Z"
-description = ""
-draft = true
+contactEmail = "bandmanager@zoobrass.dk"
+date = "2018-04-09T20:48:01+00:00"
+description = "Funky blæsermusik for børn"
 gallery = []
-image = ""
-linkFacebook = ""
+image = "/uploads/2018/04/09/zoobrass 1-1.jpg"
+linkFacebook = "https://www.facebook.com/zoobrass/"
 linkInstagram = ""
 linkSoundcloud = ""
-linkWebsite = ""
+linkWebsite = "http://www.zoobrass.dk/"
 title = "Zoobrass"
-weight = 1
+weight = 10
 
 +++
+See the music go wild!
+
+Zoobrass er funky blæsermusik for børn (og deres voksne)! De underholder med et program i børnehøjde indeholdende dans og sang.  
+
+100 % unplugged og derfor 100 % mobile. 

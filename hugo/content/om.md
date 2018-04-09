@@ -11,6 +11,7 @@ weight = 2
 # Om Copenhagen Music
 
 ## Tekst 1
+
 Copenhagen Music er Københavns store musikforening for orkestre og kor.
 
 De 200 unge fritidsmusikere i foreningen synger og spiller på alt fra sexede saxer til pompøse pauker. Og foreningen er i en rygende udvikling med flere medlemmer på vej.
@@ -26,6 +27,7 @@ Copenhagen Music er 100% nonprofit og har den befriende forpligtelse, at forenin
 Copenhagen Music har et tæt samarbejde med [Huset-KBH](http://www.huset-kbh.dk/ "Huset-KBH"). Vi benytter blandt andet flittigt deres faciliteter til koncerter, gallaralforsamlinger og som samlingspunkt for ensemblernes ledelsesmedlemmer. Vi sætter stor pris på at være en del af et af Københavns førende kulturelle tilbud.
 
 ## Tekst 2
+
 Copenhagen Music er byens store musikforening for orkestre og kor. De over 200 unge fritidsmusikere i foreningen synger og spiller på alt fra sexede saxer til pompøse pauker. Og endnu flere er på vej.
 
 Alle ugens dage er fyldt med øvning, spillejobs og koncerter spredt rundt i byen. Ambitiøse toner, rytmer og stemmer kombineret med sjov og ballade.
@@ -49,6 +51,7 @@ Foreningens formål er:
 **at fremme vilkår og udfoldelsesmuligheder for frivillige udøvere af musik.**
 
 Dette gøres ved hjælp af:
+
 * drift af større, musikalske ensembler
 * at formidle indtryk og inspiration til den etablerede musikverden.
 * at formidle samspilsmuligheder (koncerter, festivals m.m.)
@@ -73,7 +76,8 @@ Men Copenhagen Music stiller også krav til ensembler, som gerne vil være med.
 
 Kan I sige ja til alle fire punkter – og er I klar til at lade handling følge ord – så er det måske noget for jer at blive en del af Copenhagen Music.
 
+## Vedtægter og ledelse
 
-## Vedtægter
+<a href="/uploads/2018/04/09/CM_vedtaegter_2013.pdf" class="no-barba">Download vedtægter som PDF</a>
 
-<a href="/uploads/2018/04/09/CM_vedtaegter_2013.pdf" class="no-barba">Download som PDF</a>
+[Ledelsesgruppen](/ledelsesgruppen "Ledelsesgruppen")

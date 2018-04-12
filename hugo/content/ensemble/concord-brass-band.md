@@ -1,6 +1,6 @@
 +++
 contactEmail = "clada@orsted.dk"
-date = "2018-04-09T20:48:28+00:00"
+date = "2018-04-09T20:48:28Z"
 description = "Danmarks bedste brass band"
 gallery = ["/uploads/2018/04/12/concord 1.jpg", "/uploads/2018/04/12/concord 2.jpg", "/uploads/2018/04/12/concord 3.jpg", "/uploads/2018/04/12/concord 4.jpg"]
 image = "/uploads/2018/04/12/concord 1-wide-1.jpg"

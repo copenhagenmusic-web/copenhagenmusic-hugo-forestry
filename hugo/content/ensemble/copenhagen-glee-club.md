@@ -2,7 +2,7 @@
 contactEmail = "manager@gleeclub.dk"
 date = "2018-04-09T20:47:45Z"
 description = "Showkor"
-gallery = []
+gallery = ["/uploads/2018/04/12/glee_1.jpg", "/uploads/2018/04/12/glee_2.png"]
 image = "/uploads/2018/04/12/glee_4.jpg"
 linkFacebook = "https://www.facebook.com/copenhagengleeclub/"
 linkInstagram = "https://www.instagram.com/copenhagengleeclub/"

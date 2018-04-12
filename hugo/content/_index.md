@@ -14,8 +14,4 @@ Alle ugens dage er fyldt med øvning, spillejobs og koncerter spredt rundt i bye
 
 Visionen er at skabe et stærkt miljø for byens musikliv. Foreningens speciale er ensemblemusikken – den del af musiklivet, hvor det ikke bare er 5 mand og en guitar, der mødes i øvekælderen, men derimod de store bands, orkestre og kor, med den fede, fyldige livelyd.
 
-Foreningens dygtige ensembler består af mellem 12 og 40 medlemmer.
-
-Copenhagen Music er 100% nonprofit og har den befriende forpligtelse, at foreningen ikke skal genere et økonomisk afkast – men derimod et socialt, intellektuelt og emotionelt afkast. Den forpligtigelse gælder både over for publikum og medlemmer.
-
-Copenhagen Music har et tæt samarbejde med Huset-KBH. Vi benytter blandt andet flittigt deres faciliteter til koncerter, gallaralforsamlinger og som samlingspunkt for ensemblernes ledelsesmedlemmer. Vi sætter stor pris på at være en del af et af Københavns førende kulturelle tilbud.
+Klik og læs mere om vores 10 dygtige og meget forskellige ensembler herunder. Og tøv endelig ikke med at kontakte Copenhagen Music eller ensemblerne direkte, hvis du har brug for en fed liveoplevelse til dit arrangement.

@@ -4,6 +4,7 @@ date = "2018-04-09T20:48:01Z"
 description = "Funky blæsermusik for børn"
 gallery = []
 image = "/uploads/2018/04/09/zoobrass 1-1.jpg"
+imageVertAlign = 28
 linkFacebook = "https://www.facebook.com/zoobrass/"
 linkInstagram = ""
 linkSoundcloud = ""

@@ -17,7 +17,7 @@ fields:
   type: file
   hidden: false
   default: ''
-  - name: imageVertAlign
+- name: imageVertAlign
   label: Image Centering
   type: number
   hidden: false

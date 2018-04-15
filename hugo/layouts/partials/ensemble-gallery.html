@@ -11,9 +11,9 @@
     {{/* formatStr is ('/images/') filename ('-') size ('x') extension, */}}
     {{ $formatStr := "/images/%s-%sx%s" }}
     {{ $fullsize := "1920" }}  
-    <a class="no-barba" href="{{ (printf $formatStr $filename $fullsize $extLower) | relURL }}">
+    <a href="{{ (printf $formatStr $filename $fullsize $extLower) | relURL }}">
   {{ else }}
-    <a class="no-barba" href="{{ $path | relURL }}">
+    <a href="{{ $path | relURL }}">
   {{ end }}
       <div class="gallery-image-container">
         <div class="gallery-image" data-responsive-background-image>

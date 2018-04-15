@@ -20,3 +20,19 @@
     }
   }
 })();
+
+// We want to disable Barba on any link that contains a dot and extension
+Barba.Pjax.originalPreventCheck = Barba.Pjax.preventCheck;
+
+Barba.Pjax.preventCheck = function(evt, element) {
+  if (!Barba.Pjax.originalPreventCheck(evt, element)) {
+    return false;
+  }
+
+  // No need to check for element.href - originalPreventCheck does this
+  if (/\.(\w*)$/.test(element.href.toLowerCase())) {
+    return false;
+  }
+
+  return true;
+};

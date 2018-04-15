@@ -11,6 +11,14 @@ fields:
   type: file
   hidden: false
   default: ''
+- name: imageVertAlign
+  label: Image Centering
+  type: number
+  hidden: false
+  config:
+    min: '0'
+    max: '100'
+  default: '50'
 - name: description
   label: Description
   type: text

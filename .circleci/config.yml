@@ -8,7 +8,8 @@ jobs:
       - image: circleci/node:7.10
 
     environment:
-      # Set the email address to use when committing to repository
+      # Set the email address to use when commiting to repository
+      # Does not need to be a correct email, but you can change it
       - OWNER_EMAIL: nobody@example.com
       
     working_directory: ~/repo

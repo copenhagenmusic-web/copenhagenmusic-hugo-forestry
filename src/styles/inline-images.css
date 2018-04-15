@@ -1,0 +1,4 @@
+.preloader .loader-image-anim {
+    background-image: url('$inline("../images/preloader-musicnote.svg|dataurl")');
+    background-size: contain;
+}

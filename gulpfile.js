@@ -24,18 +24,26 @@ const plugins = gulpLoadPlugins({
 //
 // Import task configuration
 var config = require('./config/config.js');
+var dependencies = require('./config/dependencies.js');
 
 //
 // Copy dependencies
-let dependenciesCss = ['node_modules/simplelightbox/dist/*.min.css'];
-let dependenciesJsFooter = ['node_modules/simplelightbox/dist/*.min.js'];
-
 function copyDependenciesCss () {
-  return gulp.src(dependenciesCss, {allowEmpty: true})
+  if (dependencies.css.length == 0)
+    return gulp.src('.');
+  return gulp.src(dependencies.css)
     .pipe(gulp.dest('hugo/static/styles_vendor/'));
 }
+function copyDependenciesJsHead () {
+  if (dependencies.jsHead.length == 0)
+    return gulp.src('.');
+  return gulp.src(dependencies.jsHead)
+  .pipe(gulp.dest('hugo/static/scripts_head/'));
+}
 function copyDependenciesJsFooter () {
-  return gulp.src(dependenciesJsFooter, {allowEmpty: true})
+  if (dependencies.jsFooter.length == 0)
+    return gulp.src('.');
+  return gulp.src(dependencies.jsFooter)
     .pipe(gulp.dest('hugo/static/scripts/'));
 }
 
@@ -43,9 +51,6 @@ function copyDependenciesJsFooter () {
 // Responsive images
 // Generate different sized images for srcset
 function imgResponsive() {
-  process.env.VIPS_WARNING = 'disabled';
-  console.log(chalk.blue('--- Deprecation warnings related to images can be ignored. ---'));
-  
   return gulp.src('hugo/static/uploads/**/*.*')
     .pipe(plugins.filter(file => /\.(jpg|jpeg|png)$/i.test(file.path)))
     .pipe(plugins.rename(makeLowerCaseExt))
@@ -419,7 +424,7 @@ gulp.task('watcher', (done) => {
   addWatcher('src/styles/*.{css,pcss}', gulp.series(postCss, injectHead, 'hugoDev', 'htmlDev', reload));
   addWatcher('src/styles/partials/*.{css,pcss}', gulp.series(postCss, injectHead, 'hugoDev', 'htmlDev', reload));
   addWatcher('src/styles_vendor/*.css', gulp.series('vendorStyles', injectHead, 'hugoDev', 'htmlDev', reload));
-  addWatcher('src/*.*', gulp.series('copy', 'hugoDev', 'htmlDev', reload));
+  addWatcher('src/*', gulp.series('copy', 'hugoDev', 'htmlDev', reload));
   addWatcher('config/modernizr-config.json', gulp.series('custoModernizr', injectHead, 'hugoDev', 'htmlDev', reload));
   addWatcher('src/scripts/**/*.js', gulp.series(scripts, injectFoot, 'hugoDev', 'htmlDev', reload));
   addWatcher('src/scripts_head/**/*.js', gulp.series(scriptsHead, injectHead, 'hugoDev', 'htmlDev', reload));
@@ -468,7 +473,7 @@ gulp.task('dev',
     gulp.parallel(cleanStatic, cleanLayouts, cleanDev),
     gulp.series(cleanImages, imgResponsive, imgMinJpg, imgMinGif),
     gulp.parallel('custoModernizr', postCss, scripts, scriptsHead),
-    gulp.parallel(copyDependenciesCss, copyDependenciesJsFooter,
+    gulp.parallel(copyDependenciesCss, copyDependenciesJsHead, copyDependenciesJsFooter,
       'copy', html, 'vendorStyles', gulp.series('generate-favicon', 'inject-favicon')),
     gulp.parallel(injectHead, injectFoot),
     'hugoDev',
@@ -481,7 +486,7 @@ gulp.task('stage',
     gulp.parallel(cleanStatic, cleanLayouts, cleanStage),
     gulp.series(cleanImages, imgResponsive, imgMinJpg, imgMinGif),
     gulp.parallel('custoModernizr', minpostCss, minscripts, minscriptsHead),
-    gulp.parallel(copyDependenciesCss, copyDependenciesJsFooter,
+    gulp.parallel(copyDependenciesCss, copyDependenciesJsHead, copyDependenciesJsFooter,
       'copy', html, 'vendorStyles', gulp.series('generate-favicon', 'inject-favicon')),
     gulp.parallel(injectHead, injectFoot),
     'hugoStage',
@@ -494,7 +499,7 @@ gulp.task('live',
     gulp.parallel(cleanStatic, cleanLayouts, cleanLive),
     gulp.series(cleanImages, imgResponsive, imgMinJpg, imgMinGif),
     gulp.parallel('custoModernizr', minpostCss, minscripts, minscriptsHead),
-    gulp.parallel(copyDependenciesCss, copyDependenciesJsFooter,
+    gulp.parallel(copyDependenciesCss, copyDependenciesJsHead, copyDependenciesJsFooter,
       'copy', html, 'vendorStyles', gulp.series('generate-favicon', 'inject-favicon')),
     gulp.parallel(injectHead, injectFoot),
     'hugoLive',
@@ -514,7 +519,7 @@ gulp.task('CircleCI-build',
       gulp.parallel(cleanStatic, cleanLayouts, cleanLive),
       // gulp.parallel('custoModernizr', minpostCss, minscripts, minscriptsHead), -- not working right now
       gulp.parallel('custoModernizr', postCss, scripts, scriptsHead),
-      gulp.parallel(copyDependenciesCss, copyDependenciesJsFooter,
+      gulp.parallel(copyDependenciesCss, copyDependenciesJsHead, copyDependenciesJsFooter,
         'copy', html, 'vendorStyles', gulp.series('generate-favicon', 'inject-favicon')),
       gulp.parallel(injectHead, injectFoot),
       'htmlLive'

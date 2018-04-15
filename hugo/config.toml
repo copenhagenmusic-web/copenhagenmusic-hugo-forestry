@@ -1,4 +1,4 @@
-baseurl = "https://copenhagenmusic-web.github.io/"
+baseurl = "http://www.copenhagenmusic.dk/"
 canonifyurls = false
 copyright = "Open Source under the MIT license."
 disableKinds = ["RSS", "404", "taxonomyTerm", "taxonomy"]

@@ -4,6 +4,7 @@ date = "2018-04-09T20:47:45Z"
 description = "Showkor"
 gallery = ["/uploads/2018/04/12/glee_1.jpg", "/uploads/2018/04/12/glee_2.png"]
 image = "/uploads/2018/04/12/glee_4.jpg"
+imageVertAlign = 60
 linkFacebook = "https://www.facebook.com/copenhagengleeclub/"
 linkInstagram = "https://www.instagram.com/copenhagengleeclub/"
 linkSoundcloud = ""

@@ -33,6 +33,8 @@ module.exports = {
     }]
   },
 
+  responsiveHashstore: 'hugo/images-cache/responsiveHashstore.json',
+
   // Responsive global options
   responsiveGlobals: {
     quality: 86,
@@ -40,7 +42,7 @@ module.exports = {
     withMetadata: false,
     withoutEnlargement: false,
     errorOnEnlargement: false,
-    errorOnUnusedConfig: false,
+    errorOnUnusedConfig: false
   },
 
   //

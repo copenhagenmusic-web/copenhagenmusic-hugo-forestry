@@ -3232,13 +3232,14 @@ gulp-filter@^5.1.0:
     plugin-error "^0.1.2"
     streamfilter "^1.0.5"
 
-gulp-filter@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/gulp-filter/-/gulp-filter-5.1.0.tgz#a05e11affb07cf7dcf41a7de1cb7b63ac3783e73"
+gulp-hashstore@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/gulp-hashstore/-/gulp-hashstore-0.1.0.tgz#b2f895b4c22e06b329be84a8bd2af048a40ec0eb"
   dependencies:
-    multimatch "^2.0.0"
-    plugin-error "^0.1.2"
-    streamfilter "^1.0.5"
+    chalk "^2.3.0"
+    fancy-log "^1.3.2"
+    plugin-error "^1.0.0"
+    through2 "^2.0.3"
 
 gulp-htmlmin@^3.0.0:
   version "3.0.0"

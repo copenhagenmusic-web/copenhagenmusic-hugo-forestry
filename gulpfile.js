@@ -11,6 +11,8 @@ var chalk = require('chalk');
 var crypto = require('crypto');
 var fs = require('fs');
 
+var hashstore = require('gulp-hashstore');
+
 // Auto load Gulp plugins
 const plugins = gulpLoadPlugins({
   rename: {
@@ -54,14 +56,16 @@ function imgResponsive() {
   return gulp.src('hugo/static/uploads/**/*.*')
     .pipe(plugins.filter(file => /\.(jpg|jpeg|png)$/i.test(file.path)))
     .pipe(plugins.rename(makeLowerCaseExt))
+    .pipe(hashstore(config.responsiveHashstore,
+      { invalidateObject: [ config.responsiveOptions, config.responsiveGlobals ] }))
     .pipe(plugins.responsive(config.responsiveOptions, config.responsiveGlobals))
-    .pipe(gulp.dest('hugo/.images-temp/'));
+    .pipe(gulp.dest('hugo/images-cache/'));
 }
 
 //
 // Optimize responsive images and copy to final location
 function imgMinJpg () {
-  return gulp.src(['src/images/**/*.*', 'hugo/.images-temp/**/*.*'])
+  return gulp.src(['src/images/**/*.*', 'hugo/images-cache/**/*.*'])
     .pipe(plugins.filter(file => /\.(jpg|jpeg|png)$/i.test(file.path)))
     .pipe(plugins.rename(makeLowerCaseExt))
     .pipe(plugins.imagemin(config.imageminOptions, {verbose: true}))
@@ -110,11 +114,11 @@ gulp.task('generate-favicon', function(done) {
   if (fs.existsSync(config.faviconDataFile)) {
     var dataFile = JSON.parse(fs.readFileSync(config.faviconDataFile));
     if (dataFile.generated_hash === generated_hash) {
-      console.log('Favicon files up-to-date for sha1: ' + generated_hash);
+      console.log('Favicon files up-to-date for sha1: ' + generated_hash + '\n');
       return done();
     }
   }
-  console.log('Generated sha1 for new favicon: ' + generated_hash);
+  console.log('Generated sha1 for new favicon: ' + generated_hash + '\n');
 
   plugins.realFavicon.generateFavicon(config.faviconOptions(filename, generated_hash), function() {
     // Add generated_hash to details file
@@ -377,12 +381,10 @@ function cleanLayouts (done) {
   return del(['hugo/layouts/**/*.html'], done);
 }
 
-// Clean temporary image files created during processing
+// Clean final image files created during processing
 function cleanImages (done) {
   return del([
-    'hugo/.images-temp/*',
-    'hugo/static/images/*',
-    'hugo/static/images/responsive/*'
+    'hugo/static/images/*'
   ], done);
 }
 
@@ -420,7 +422,7 @@ gulp.task('watcher', (done) => {
 
   // Watch files for changes
   addWatcher('hugo/static/uploads/**/*', imgResponsive);
-  addWatcher(['src/images/**/*', 'hugo/.images-temp/**/*'], gulp.series(imgMinJpg, imgMinGif, 'hugoDev', 'htmlDev', reload));
+  addWatcher(['src/images/**/*', 'hugo/images-cache/**/*'], gulp.series(imgMinJpg, imgMinGif, 'hugoDev', 'htmlDev', reload));
   addWatcher('src/styles/*.{css,pcss}', gulp.series(postCss, injectHead, 'hugoDev', 'htmlDev', reload));
   addWatcher('src/styles/partials/*.{css,pcss}', gulp.series(postCss, injectHead, 'hugoDev', 'htmlDev', reload));
   addWatcher('src/styles_vendor/*.css', gulp.series('vendorStyles', injectHead, 'hugoDev', 'htmlDev', reload));

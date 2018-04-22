@@ -48,7 +48,7 @@ module.exports = {
   //
   // PostCSS plugins and their options
   // For dev
-  processors: [
+  processors: () => [
     require('postcss-import')(),
     require('postcss-normalize')(),
     require('postcss-cssnext')(),
@@ -62,7 +62,7 @@ module.exports = {
     })
   ],
   // For stage and live
-  minProcessors: [
+  minProcessors: () => [
     require('postcss-import')(),
     require('postcss-normalize')(),
     require('postcss-cssnext')({ warnForDuplicates: false }),

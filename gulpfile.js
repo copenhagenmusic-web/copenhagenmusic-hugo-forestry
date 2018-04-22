@@ -55,7 +55,7 @@ function imgResponsive() {
   return gulp.src('hugo/static/uploads/**/*.*')
     .pipe(plugins.filter(file => /\.(jpg|jpeg|png)$/i.test(file.path)))
     .pipe(plugins.rename(makeLowerCaseExt))
-    .pipe(hashstore(config.responsiveHashstore,
+    .pipe(plugins.hashstore(config.responsiveHashstore,
       { invalidateObject: [ config.responsiveOptions, config.responsiveGlobals ] }))
     .pipe(plugins.responsive(config.responsiveOptions, config.responsiveGlobals))
     .pipe(gulp.dest('hugo/images-cache/'));

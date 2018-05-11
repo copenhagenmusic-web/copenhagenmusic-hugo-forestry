@@ -9,4 +9,4 @@ webhook_url:
 sections:
   ensemble:
     default_front_matter_template: ensemble
-version: 0.31.1
+version: 0.38.1

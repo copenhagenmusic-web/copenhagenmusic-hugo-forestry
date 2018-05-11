@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="{{ .Site.LanguageCode }}">
+<html class="no-js" lang="{{ .Lang }}">
 <head>
   {{ partial "head-meta.html" . }}
 </head>
@@ -17,8 +17,11 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-1 col-md-7 col-md-offset-1 col-xs-8">
-        <h1>{{ .Title }}</h1>
-        <div class="text-muted advent" style="font-size: 24px; font-weight: 500; margin-top: -20px;">{{ .Description }}</div>
+        {{ $defaultLanguagePage := index .AllTranslations 0 }}
+        <h1>{{ $defaultLanguagePage.Title }}</h1>
+        <div class="text-muted advent" style="font-size: 24px; font-weight: 500; margin-top: -20px;">
+          {{ .Description | default $defaultLanguagePage.Description }}
+        </div>
       </div>
       <div class="col-lg-2 col-md-3 col-xs-4 lg-nopadding md-nopadding sm-nopadding">
         {{ partial "ensemble-social.html" . }}

@@ -21,7 +21,7 @@
         {{ .Content }}
         <ul>
           {{ range .Data.Pages }}
-        <li><a href="{{ .Permalink | absLangURL }}">{{ .Title }}</a></li>
+          <li><a href="{{ .Permalink | absLangURL }}">{{ .Title }}</a></li>
           {{ end }}
         </ul>
       </div>

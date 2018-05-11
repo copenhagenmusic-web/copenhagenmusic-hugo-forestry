@@ -34,9 +34,11 @@
 
 <!-- Page Header -->
 {{ if not .IsHome }}
+  {{ $defaultLanguagePage := index .AllTranslations 0 }}
 <header data-responsive-background-image class="intro-header" style="width: 100%;">
-  {{ if not (.Params.image | default "" | eq "") }}
-    {{ partial "image-srcset" (dict "path" .Params.image "sizes" "100vw" ) }}
+  {{ $image := $defaultLanguagePage.Params.image }}
+  {{ if not ($image | default "" | eq "") }}
+    {{ partial "image-srcset" (dict "path" $image "sizes" "100vw" ) }}
   {{ else if not (.Site.Params.image | default "" | eq "") }}
     {{ partial "image-srcset" (dict "path" .Site.Params.image "sizes" "100vw" ) }}
   {{ end }}

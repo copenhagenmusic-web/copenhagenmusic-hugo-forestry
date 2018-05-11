@@ -7,4 +7,6 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
+  ensemble:
+    default_front_matter_template: ensemble
 version: 0.38.1

@@ -1,27 +1,39 @@
-baseurl = "http://www.copenhagenmusic.dk/"
+baseurl = "https://www.copenhagenmusic.dk/"
 canonifyurls = false
 copyright = "Open Source under the MIT license."
 disableKinds = ["404", "taxonomyTerm", "taxonomy"]
 enableEmoji = true
 googleAnalytics = ""
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "da"
 paginate = 10
 relativeurls = false
 theme = "startbootstrap-clean-blog"
 title = "Copenhagen Music"
 [author]
 name = "Copenhagen Music"
-[[menu.main]]
+[languages]
+[languages.da]
+weight = 1
+languageName = "Dansk"
+[[languages.da.menu.main]]
 identifier = "home"
 name = "Forside"
 url = "/"
 weight = 1
+[languages.en]
+weight = 2
+languageName = "English"
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 [params]
+addressline = "Julius Andersens Vej 9, 2450 København SV"
 dateform = "Mon, Jan 2, 2006"
 description = ""
-addressLine = "Copenhagen Musik address line"
 email = "info@copenhagenmusic.dk"
-image = "/uploads/2018/01/01/unsplash-garrett-parker-247225.jpg"
+image = "/uploads/2018/04/12/CopenhagenMusicCoverPhoto.png"
 [[params.social]]
 title = "facebook"
 url = "https://www.facebook.com/copenhagenmusic.dk"

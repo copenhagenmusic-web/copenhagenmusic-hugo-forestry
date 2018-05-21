@@ -1,0 +1,78 @@
+{
+  "version": "0.2.0",
+  "outputTrackingEnabled": true,
+  "inputs": [
+    {
+      "file": "src/images/linkto_email.svg",
+      "generated_hash": "a0a2a094cac0e33a54d5ceac5dc82f4d6e43f885",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/static/images/linkto_email.svg",
+          "generated_hash": "36644aa9a9621cd15b7295116d6192c03906fdf0",
+          "last_changed": 1526933440970
+        }
+      ]
+    },
+    {
+      "file": "src/images/linkto_facebook.svg",
+      "generated_hash": "0385e5a66160fa88a248b672396691e21c79d455",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/static/images/linkto_facebook.svg",
+          "generated_hash": "c43e06823290ff3b9eea9e86d25f89d3aaffdedc",
+          "last_changed": 1526933440970
+        }
+      ]
+    },
+    {
+      "file": "src/images/linkto_instagram.svg",
+      "generated_hash": "2d012241de37d28c9b40a4e7a85f09e7f879848f",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/static/images/linkto_instagram.svg",
+          "generated_hash": "37977bcf0e260f34d075e470cf411624c6e5f183",
+          "last_changed": 1526933440970
+        }
+      ]
+    },
+    {
+      "file": "src/images/linkto_soundcloud.svg",
+      "generated_hash": "3d1b5ef1889a7ed9a7afa5d43eb0a19e54e76863",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/static/images/linkto_soundcloud.svg",
+          "generated_hash": "0f81aad24aa8ac3b7643a7660a3ff02eb8d9128b",
+          "last_changed": 1526933440970
+        }
+      ]
+    },
+    {
+      "file": "src/images/linkto_website.svg",
+      "generated_hash": "4c49efb3805101adb6d60b944d66b136b1faeb32",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/static/images/linkto_website.svg",
+          "generated_hash": "39ed4ec2c60e6df325edeac295b286a2f971d69e",
+          "last_changed": 1526933440970
+        }
+      ]
+    },
+    {
+      "file": "src/images/preloader-musicnote.svg",
+      "generated_hash": "390c192cf37327999800174e904bc296d65dbdcc",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/static/images/preloader-musicnote.svg",
+          "generated_hash": "09e6b2faa982e0ab87a39d5d27378d6c99653e3f",
+          "last_changed": 1526933440970
+        }
+      ]
+    }
+  ]
+}

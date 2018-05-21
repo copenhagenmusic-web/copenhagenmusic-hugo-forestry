@@ -1,197 +1,1303 @@
 {
+  "version": "0.2.0",
   "invalidateObjectHash": "a8d8b13948ac523bffa0232af4483d0a8ab0237e",
-  "files": [
+  "outputTrackingEnabled": true,
+  "inputs": [
     {
       "file": "hugo/static/uploads/2018/01/01/unsplash-brandon-lam-29892.jpg",
-      "generated_hash": "a84812affd83ed600d97b1513ae5b0a38938d47b"
+      "generated_hash": "a84812affd83ed600d97b1513ae5b0a38938d47b",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-brandon-lam-29892-320x.jpg",
+          "generated_hash": "2b56b68eca0c6b8c2205c065d915a89ae8946bdf",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-brandon-lam-29892-640x.jpg",
+          "generated_hash": "8816d0eee1d4016389ce78dd7127ab7c95fe50fa",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-brandon-lam-29892-1280x.jpg",
+          "generated_hash": "f31d140a866a29bcfdaf40e0b8775cf4a9d3c60a",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-brandon-lam-29892-1920x.jpg",
+          "generated_hash": "0311e9ebcc6766781ed3d4e085748153ef2c51e8",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/01/01/unsplash-garrett-parker-247225.jpg",
-      "generated_hash": "c176669d402743891080555bc2588ba8bf031245"
+      "generated_hash": "c176669d402743891080555bc2588ba8bf031245",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-garrett-parker-247225-320x.jpg",
+          "generated_hash": "fc61b006f3ddd05bfe9e2fb206a5ff6e98f81354",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-garrett-parker-247225-640x.jpg",
+          "generated_hash": "018b51527035a79d1214e8047df0ddc83737232f",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-garrett-parker-247225-1920x.jpg",
+          "generated_hash": "b9bafe247bf983b9384fa01bdb769b89b23bf962",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-garrett-parker-247225-1280x.jpg",
+          "generated_hash": "799c36fe3875363060d1360b2823f0f477769bae",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/01/01/unsplash-jason-wong-292853.jpg",
-      "generated_hash": "e8aedb874cce49bbafc00ab2c3a7a8f590b6405a"
+      "generated_hash": "e8aedb874cce49bbafc00ab2c3a7a8f590b6405a",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-jason-wong-292853-320x.jpg",
+          "generated_hash": "15d903dda08b946cf6aae5c692ca14eaca0bc3ff",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-jason-wong-292853-1280x.jpg",
+          "generated_hash": "32b0aac481f001b4d4e641feea1437d35f6ce161",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-jason-wong-292853-640x.jpg",
+          "generated_hash": "f97edffb8b0548041c94aba91bc924a7577db538",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-jason-wong-292853-1920x.jpg",
+          "generated_hash": "47477c8212e598004706b0f28123e65e024f98de",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/01/01/unsplash-jonatan-pie-234237.jpg",
-      "generated_hash": "c187ae81aef3bd414b5395bd4c7738e5b0e05c88"
+      "generated_hash": "c187ae81aef3bd414b5395bd4c7738e5b0e05c88",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-jonatan-pie-234237-320x.jpg",
+          "generated_hash": "c2b116cc0aa344149961a13749f6f87a1a4ea827",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-jonatan-pie-234237-640x.jpg",
+          "generated_hash": "d6227d7c038cf13b94d959961364a02641a0fe82",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-jonatan-pie-234237-1280x.jpg",
+          "generated_hash": "8241333ef61cfffec56f5054f82a13a162b2215c",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/01/01/unsplash-jonatan-pie-234237-1920x.jpg",
+          "generated_hash": "68d46d5684cde6d34cc9a6eb84f88ebfda36bb82",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/01/13522030_1371696616180249_618440332483028964_n.jpg",
-      "generated_hash": "d562d2434939b53dcc4dd9f25e80693fe6c6c7d1"
+      "generated_hash": "d562d2434939b53dcc4dd9f25e80693fe6c6c7d1",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/01/13522030_1371696616180249_618440332483028964_n-320x.jpg",
+          "generated_hash": "2d56b736da467a57bc658b17a87266962ac63fe3",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/13522030_1371696616180249_618440332483028964_n-640x.jpg",
+          "generated_hash": "293c504c09ae6e6293e950a5f30aba23dbe2117b",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/13522030_1371696616180249_618440332483028964_n-1280x.jpg",
+          "generated_hash": "9225dd134d60eaf8c1ab75e66949e084f4d7eb1b",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/13522030_1371696616180249_618440332483028964_n-1920x.jpg",
+          "generated_hash": "10c6c9096ac0c45ebc94da591d934bf7171615b0",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/01/18449732_1730927823590458_23803100685637723_o.jpg",
-      "generated_hash": "3f90d0cc24d5d32c871198011cd18efc0b187698"
+      "generated_hash": "3f90d0cc24d5d32c871198011cd18efc0b187698",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/01/18449732_1730927823590458_23803100685637723_o-320x.jpg",
+          "generated_hash": "de542b8c7d7f4ea36b22b860989b64777a00a18b",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/18449732_1730927823590458_23803100685637723_o-640x.jpg",
+          "generated_hash": "4cfcb00079cee5b24ebb3ee00b231ec269c5d153",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/18449732_1730927823590458_23803100685637723_o-1280x.jpg",
+          "generated_hash": "8efbd8a7085eb1bca3ee212694856b5b52c7bebf",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/18449732_1730927823590458_23803100685637723_o-1920x.jpg",
+          "generated_hash": "4d775a74e3ca7be1bd875abb2f7b7e2c42d57c11",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/01/21167191_1856144577735448_8256052994325323863_o.jpg",
-      "generated_hash": "48585ddcba8124ee0139a3e55f3c0252cfe768a4"
+      "generated_hash": "48585ddcba8124ee0139a3e55f3c0252cfe768a4",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/01/21167191_1856144577735448_8256052994325323863_o-320x.jpg",
+          "generated_hash": "630960decadf67fefc3458df3fa67eee920fdf2a",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/21167191_1856144577735448_8256052994325323863_o-640x.jpg",
+          "generated_hash": "a57cf2d25c22507b85335884f81f54923adb3c58",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/21167191_1856144577735448_8256052994325323863_o-1280x.jpg",
+          "generated_hash": "e30c8b8e07b7c82776fd7c43c9d12a2927afdb93",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/21167191_1856144577735448_8256052994325323863_o-1920x.jpg",
+          "generated_hash": "328ab55c14d52c2ece31b000af8a672ed927eddc",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/01/22814380_10155384271607659_9054646585166229962_n.jpg",
-      "generated_hash": "17dff95d933b6a296ab80de5031803aba65c1bd1"
+      "generated_hash": "17dff95d933b6a296ab80de5031803aba65c1bd1",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/01/22814380_10155384271607659_9054646585166229962_n-320x.jpg",
+          "generated_hash": "00e9167cd6a5f781f67e44afd31d534bee0eaf54",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/22814380_10155384271607659_9054646585166229962_n-640x.jpg",
+          "generated_hash": "8bf6a1ba0829cbaf78b54ea0b102ab568f5ba7a1",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/22814380_10155384271607659_9054646585166229962_n-1280x.jpg",
+          "generated_hash": "abb3f26ffe33d0cfdfb92b7a28641b984ef1bb8e",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/22814380_10155384271607659_9054646585166229962_n-1920x.jpg",
+          "generated_hash": "94b80d53a7c4695f486d3a0f9b5cda39476e5e0b",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/01/DSC_0027.jpg",
-      "generated_hash": "e8c20253b9fd3221342de5df8a36807f7bccb65c"
+      "generated_hash": "e8c20253b9fd3221342de5df8a36807f7bccb65c",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/01/DSC_0027-320x.jpg",
+          "generated_hash": "5f06c52f1ab90ae65b2cb741301810adafcf917c",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/DSC_0027-640x.jpg",
+          "generated_hash": "83fc504a1bb61b88e8541e50b38d5ddefdc1f512",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/DSC_0027-1280x.jpg",
+          "generated_hash": "ee7d8f641a81ab8ccb8ae7ee06bb826c872625e1",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/01/DSC_0027-1920x.jpg",
+          "generated_hash": "a9f1263f127d7bea7c3524b2be1aedb132e4d6f3",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/DRK 1.jpg",
-      "generated_hash": "681b34609c34950bff6388af2ea723cc9b5db6a1"
+      "generated_hash": "681b34609c34950bff6388af2ea723cc9b5db6a1",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 1-320x.jpg",
+          "generated_hash": "aca012445401950b80de0ac45b2719f7132dd5be",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 1-640x.jpg",
+          "generated_hash": "62ac5247faf3efff7a26031e5dabf408405480b4",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 1-1280x.jpg",
+          "generated_hash": "943693f8e1f0be83f3e68c5bb5306e0324372514",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 1-1920x.jpg",
+          "generated_hash": "f9428a2d86a20c42115fe0db9db0132b3417cf8f",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/DRK 2.jpg",
-      "generated_hash": "66b3bac80819e9e2a4d43ebd85207da8d597d7db"
+      "generated_hash": "66b3bac80819e9e2a4d43ebd85207da8d597d7db",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 2-320x.jpg",
+          "generated_hash": "1900c0e71be462b93985d6561d5c50b93b70b0d5",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 2-640x.jpg",
+          "generated_hash": "14dd33f5bbdc34f89f7482b41610635110f673a5",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 2-1280x.jpg",
+          "generated_hash": "5a1e855254ce89e0dd18a6a394820058c74b62bb",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 2-1920x.jpg",
+          "generated_hash": "3daa4cc96ecfdd35ccd2f2562642b050fdf1d559",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/DRK 3.jpg",
-      "generated_hash": "7ced60da2a7697aaa61dd2aabe598e17b8e2d76d"
+      "generated_hash": "7ced60da2a7697aaa61dd2aabe598e17b8e2d76d",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 3-320x.jpg",
+          "generated_hash": "91fee65c56867dc50fe0bdee0452850a3fef6810",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 3-640x.jpg",
+          "generated_hash": "2e5f624c14e3a3fa3a7c1eca7b74e1e53074a05c",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 3-1280x.jpg",
+          "generated_hash": "85b076de089fc61736a5924d37d7299e64ac7457",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 3-1920x.jpg",
+          "generated_hash": "9f35627bcf389684f77c32a77495f7e4f1bf4458",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/DRK 4.jpg",
-      "generated_hash": "2628b5ba892fe0f980854e0c4cec9d5ea96b4a1d"
+      "generated_hash": "2628b5ba892fe0f980854e0c4cec9d5ea96b4a1d",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 4-320x.jpg",
+          "generated_hash": "aaf7bfbd8adc217ad5e8fced59eb2d5d52a679e7",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 4-640x.jpg",
+          "generated_hash": "4f38b3214ab429ac89d38ea5c22350f2b0b5d7d0",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 4-1280x.jpg",
+          "generated_hash": "7f7839b995239e2e8eb99b63edea53466b804f73",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/DRK 4-1920x.jpg",
+          "generated_hash": "140b190c4d9a02a84a606fa014a38217183901fb",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/heidis 1 (2)-1.jpg",
-      "generated_hash": "9032fdf245929e5b59bd15fa0c5f467aa789a0ae"
+      "generated_hash": "9032fdf245929e5b59bd15fa0c5f467aa789a0ae",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1 (2)-1-320x.jpg",
+          "generated_hash": "b98af5e13cebca92929fae8391d9ed5bb7270c43",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1 (2)-1-640x.jpg",
+          "generated_hash": "686f22dfeb0d7c01de8ee9a5e14086940380b0fe",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1 (2)-1-1280x.jpg",
+          "generated_hash": "aadc3b9c5b8c348f3a51dda6426dec22e952972f",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1 (2)-1-1920x.jpg",
+          "generated_hash": "d8278b9566aa6c7f7f2c0d7a676db1930237bf96",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/heidis 1 (2).jpg",
-      "generated_hash": "5585ecb49616a2b6b3641220a653391cace81352"
+      "generated_hash": "5585ecb49616a2b6b3641220a653391cace81352",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1 (2)-320x.jpg",
+          "generated_hash": "6a6a00daffa0e713eb77207369f8a9f84800ae28",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1 (2)-640x.jpg",
+          "generated_hash": "b2f195677d33545aeddce662e5703586ea9462d5",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1 (2)-1280x.jpg",
+          "generated_hash": "1d6eec4e7b6074ffdcf14ae2b83d07f54f96ea83",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1 (2)-1920x.jpg",
+          "generated_hash": "745c31033683332767c414a913c66bc3e411aeff",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/heidis 1.jpg",
-      "generated_hash": "7c955d53433ebe6d5f3550121cef28df6cfefc82"
+      "generated_hash": "7c955d53433ebe6d5f3550121cef28df6cfefc82",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1-320x.jpg",
+          "generated_hash": "9ba02a0b1b020cdef70c4a87cab84f9efa0b6384",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1-640x.jpg",
+          "generated_hash": "d848e5ef35a256575d38e687b513c0fd60aab575",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1-1280x.jpg",
+          "generated_hash": "09c824ed512fb6c787e3c69c04caf01193b69555",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 1-1920x.jpg",
+          "generated_hash": "dfbd949760b773cd9b1288f3b8a4577d1deec74d",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/heidis 2.jpg",
-      "generated_hash": "a71bb9c11c4592d8188f9ceaa759be485ea54011"
+      "generated_hash": "a71bb9c11c4592d8188f9ceaa759be485ea54011",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 2-320x.jpg",
+          "generated_hash": "9d2ebf55cafbf4779b2e209badaf288eb74a3743",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 2-640x.jpg",
+          "generated_hash": "8c58e24c0f3b31d1b43fafcca85e9df839786264",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 2-1280x.jpg",
+          "generated_hash": "285a5a76f2f29b01777e2a41485efbc31b33a3ce",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 2-1920x.jpg",
+          "generated_hash": "488ccc3d4204ff6812b206d2ba4a51056f33d1c4",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/heidis 3.jpg",
-      "generated_hash": "93069696e63bd7cc53c186957cbbab481450aa29"
+      "generated_hash": "93069696e63bd7cc53c186957cbbab481450aa29",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 3-320x.jpg",
+          "generated_hash": "a9318cf6cd341384ed49a37c437436cdb79440e8",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 3-640x.jpg",
+          "generated_hash": "d1dc0802d3141a14fead34793d309b445937f229",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 3-1280x.jpg",
+          "generated_hash": "fb1d0335e6b54f9cfd3c0914482f882809bac0dd",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 3-1920x.jpg",
+          "generated_hash": "400ddc8db7f0b82fc764f89dd46b4d5b97f87902",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/heidis 4.jpg",
-      "generated_hash": "54886c86bc717792d8fce51931b3298c335d1a2d"
+      "generated_hash": "54886c86bc717792d8fce51931b3298c335d1a2d",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 4-320x.jpg",
+          "generated_hash": "38378ac9798f096f8d14a4075e3d69d2b6ef12e8",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 4-640x.jpg",
+          "generated_hash": "2b9f4873d1b2c2dff71128439dd1734309da773a",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 4-1280x.jpg",
+          "generated_hash": "eb8c722d20c452fead0ad3f32bd4fad328e4f3c4",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/heidis 4-1920x.jpg",
+          "generated_hash": "8ae0bb204d345f080287a80167c890abc2f0cb24",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/søng 1.jpg",
-      "generated_hash": "8a042556e8ce4be0f1ef822a512b132d8ce3e5bc"
+      "generated_hash": "8a042556e8ce4be0f1ef822a512b132d8ce3e5bc",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 1-320x.jpg",
+          "generated_hash": "32eee9e44a1c156e132eca05efc79058f21c8131",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 1-640x.jpg",
+          "generated_hash": "e34e1eb62c8a6a790ec68ec44d140e6a73cac25e",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 1-1280x.jpg",
+          "generated_hash": "fd19759f459880c1d85821a8706dc8a3a472bb39",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 1-1920x.jpg",
+          "generated_hash": "784307155d933f8c5d85f89943db3f3a0e12acbb",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/søng 2.jpg",
-      "generated_hash": "637f70bd0aba5cdba2b8e4cf562098794b83f5a5"
+      "generated_hash": "637f70bd0aba5cdba2b8e4cf562098794b83f5a5",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 2-320x.jpg",
+          "generated_hash": "271fc78741b3dc9377556cca1e3e462d8c4acade",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 2-640x.jpg",
+          "generated_hash": "d05afd99506ffd7f104f375dbc0b6d3be2230b3c",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 2-1280x.jpg",
+          "generated_hash": "7111a29fe54cec7c09d01bb302c4a685c4d0e3db",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 2-1920x.jpg",
+          "generated_hash": "6372a5366ea9b1a3407e3192423fa0ed80e06fe7",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/søng 3.jpg",
-      "generated_hash": "b03b7a0d34bf56b0723f2ad405d6bd5596b37d80"
+      "generated_hash": "b03b7a0d34bf56b0723f2ad405d6bd5596b37d80",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 3-640x.jpg",
+          "generated_hash": "5e87bd7df61d6fe6cd7b04e71da6a90548726be9",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 3-320x.jpg",
+          "generated_hash": "2576ef1042d7cb29ab3516f741d33d06511dcab5",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 3-1280x.jpg",
+          "generated_hash": "54e9b39e2c6519814fd20ca8d90d970cdfcc790d",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/søng 3-1920x.jpg",
+          "generated_hash": "3cf995f60d238401de0a2aa42fab608e5defa6e4",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/zoobrass 1-1.jpg",
-      "generated_hash": "4fba6c432ff392b176e3d7809111cb13738e422a"
+      "generated_hash": "4fba6c432ff392b176e3d7809111cb13738e422a",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/zoobrass 1-1-320x.jpg",
+          "generated_hash": "042980dcfecc2245c34670c8de25c5666bcd09bf",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/zoobrass 1-1-640x.jpg",
+          "generated_hash": "96878649ff4423041661f88dc2164b4e294a0891",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/zoobrass 1-1-1280x.jpg",
+          "generated_hash": "534b85fb6710240c3e031703086210ab31cb3571",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/zoobrass 1-1-1920x.jpg",
+          "generated_hash": "61c681880385bd339bef2db5e17bbef8bc68f56e",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/09/zoobrass 1.jpg",
-      "generated_hash": "b65b0485d298273065a75e652647cf30793f144f"
+      "generated_hash": "b65b0485d298273065a75e652647cf30793f144f",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/09/zoobrass 1-320x.jpg",
+          "generated_hash": "4b9a3e006f7b3b504ad30eaf3930cdb11e52e476",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/zoobrass 1-640x.jpg",
+          "generated_hash": "d9f8a6e369c15acfb36275c9699afdf87da46fff",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/zoobrass 1-1280x.jpg",
+          "generated_hash": "babfffdcf681e1f19ef2f71c1ed4230a60d7fde5",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/09/zoobrass 1-1920x.jpg",
+          "generated_hash": "0138501049acfaa561d486e759da20b56717b1a4",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/CopenhagenMusicCoverPhoto.png",
-      "generated_hash": "710126a084dbd8f636db81667760d17332222d0a"
+      "generated_hash": "710126a084dbd8f636db81667760d17332222d0a",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/CopenhagenMusicCoverPhoto-320x.png",
+          "generated_hash": "9a8b06e0511ddab5c1d3cf59959f82f34b32cc6d",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/CopenhagenMusicCoverPhoto-640x.png",
+          "generated_hash": "d591346da84f9afcef4b101d476a0b784d112d08",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/CopenhagenMusicCoverPhoto-1280x.png",
+          "generated_hash": "87511a0a49f3e047efddca7eb8bcba849b81522b",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/CopenhagenMusicCoverPhoto-1920x.png",
+          "generated_hash": "48291059951ad5cd7cce43bd86b3fae5a067e9e0",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/beat_that_blue_1.jpg",
-      "generated_hash": "78672bee6c47a1b9b05292a8e804b79657ae2018"
+      "generated_hash": "78672bee6c47a1b9b05292a8e804b79657ae2018",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_1-320x.jpg",
+          "generated_hash": "91f6c271de4b809cee0d8ea137a98179f4a5bdb9",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_1-640x.jpg",
+          "generated_hash": "9bc20cf2502f21b135a90491c1b7132aa925ada8",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_1-1280x.jpg",
+          "generated_hash": "26b1635035310b776d5175e780318e7ff1c81f87",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_1-1920x.jpg",
+          "generated_hash": "b5200bc42a3b66645a7474c3d6530576cfe1dcab",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/beat_that_blue_2.jpg",
-      "generated_hash": "1bb1398be094e2bdf6b6c2239d705e6d2ebd2fec"
+      "generated_hash": "1bb1398be094e2bdf6b6c2239d705e6d2ebd2fec",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_2-320x.jpg",
+          "generated_hash": "3751b124d81012d3b01f81b916e0078c52b919ff",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_2-640x.jpg",
+          "generated_hash": "a8f48f2b7ec6b59317f80341a8276a6491762b81",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_2-1280x.jpg",
+          "generated_hash": "3a5ef1da14238321a81c6e9e826fc6efafe601d0",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_2-1920x.jpg",
+          "generated_hash": "a4c36806b07b4278a679bdfb99ed2561e87d2e92",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/beat_that_blue_3.jpg",
-      "generated_hash": "8dc369e1f4397ad613a0d711af6a9d9b85f8c08a"
+      "generated_hash": "8dc369e1f4397ad613a0d711af6a9d9b85f8c08a",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_3-640x.jpg",
+          "generated_hash": "7776bb2717108381e1996e0bc57b8f7df6354787",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_3-320x.jpg",
+          "generated_hash": "2fcb9fba1c828bc0673dca4e11afc2be3c738e44",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_3-1280x.jpg",
+          "generated_hash": "2c8ae45a58a26d0ef698e569bf7012ee54967ae4",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_3-1920x.jpg",
+          "generated_hash": "b9129d78a31b91eecd206aedd84a6153608892b1",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/beat_that_blue_4.jpg",
-      "generated_hash": "1dc2486fdbbe9d0afc906c8b1aca4b75a3082c6d"
+      "generated_hash": "1dc2486fdbbe9d0afc906c8b1aca4b75a3082c6d",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_4-320x.jpg",
+          "generated_hash": "001308d2484a504d7a9f1cfa0cea472af83bc608",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_4-640x.jpg",
+          "generated_hash": "f21353e2ffee633c9e9b154c9fd3108881a781fa",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_4-1280x.jpg",
+          "generated_hash": "7f03d3371c3fd774149b2d0a39b17744ced3ca56",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_4-1920x.jpg",
+          "generated_hash": "af21193891e880fb036591adfa06e8a035d514d4",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/beat_that_blue_5.jpg",
-      "generated_hash": "8c8cd5d7342f31d4a8b0e763135c76a90d32ae83"
+      "generated_hash": "8c8cd5d7342f31d4a8b0e763135c76a90d32ae83",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_5-320x.jpg",
+          "generated_hash": "72ec2f15b47be14a990d7066546acacc92598552",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_5-640x.jpg",
+          "generated_hash": "2e4e658b28210318e5aed5e94493001287d87c61",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_5-1280x.jpg",
+          "generated_hash": "5ca775ce301f96f942bee4a9f850a260358d0e71",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_5-1920x.jpg",
+          "generated_hash": "25a2959a336769ec5313f14ea65675e9d2c0bc42",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/beat_that_blue_6.jpg",
-      "generated_hash": "e976cd4696bbada66b3f60f5c09abef4ab9cc869"
+      "generated_hash": "e976cd4696bbada66b3f60f5c09abef4ab9cc869",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_6-320x.jpg",
+          "generated_hash": "fcda340cdbfc4d81f2f6b6a59c16ea697cd30ff0",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_6-640x.jpg",
+          "generated_hash": "2dc0f67f1ec0abc9d7f080de20896e3e5f3c87a5",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_6-1280x.jpg",
+          "generated_hash": "cecf9fe4c68962aecb53aab9dce314e3d7a8ae84",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/beat_that_blue_6-1920x.jpg",
+          "generated_hash": "6526f2e5c51673ae86ad8bc43c43bc05c7c84e9c",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/choirish_1.jpg",
-      "generated_hash": "00afcf8e001ca865b29b9fe0a0d59b3c3f6974c3"
+      "generated_hash": "00afcf8e001ca865b29b9fe0a0d59b3c3f6974c3",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_1-320x.jpg",
+          "generated_hash": "2d77f70a41ed45ffeb336d2d3f7126fc774d4cf4",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_1-640x.jpg",
+          "generated_hash": "322cdacaacfee39d29706e0cb6a499617fb1511c",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_1-1280x.jpg",
+          "generated_hash": "955829726fe3a6785edcf0d0f8e0468502a7efbb",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_1-1920x.jpg",
+          "generated_hash": "7ad1792aac4e5b5bf3ec6fd286a52a25cda042f1",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/choirish_2.jpg",
-      "generated_hash": "b5af422a262988705e127556e9c2c61f0e5e154f"
+      "generated_hash": "b5af422a262988705e127556e9c2c61f0e5e154f",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_2-320x.jpg",
+          "generated_hash": "f2709f1f9843a3ef7af16cd35a4b408eaa256909",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_2-640x.jpg",
+          "generated_hash": "565b0e637ca399be8f6c903ae6310e6950b7d826",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_2-1280x.jpg",
+          "generated_hash": "62554d7948ff57f422b2317e0c29f88a4321fd42",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_2-1920x.jpg",
+          "generated_hash": "bf3267bbaa58979daee74c47716495da4f16a1b0",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/choirish_3.jpg",
-      "generated_hash": "70fdc42db2c3624711d3008449ab3dccda69cda4"
+      "generated_hash": "70fdc42db2c3624711d3008449ab3dccda69cda4",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_3-320x.jpg",
+          "generated_hash": "8b472f936e05b76b994d571384c2f7d264321708",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_3-640x.jpg",
+          "generated_hash": "cd9661ea9ec2cc73a31a0d4056d4cc4187b0e205",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_3-1280x.jpg",
+          "generated_hash": "a00db6813770f610b155647c12873c5c4f7bfa60",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_3-1920x.jpg",
+          "generated_hash": "bb70b815b3aeb1b0a04a2d0b92742a8bb11b1df0",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/choirish_4.jpg",
-      "generated_hash": "52145d4f87317c7b0a92afcff791786a817dcbd1"
+      "generated_hash": "52145d4f87317c7b0a92afcff791786a817dcbd1",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_4-320x.jpg",
+          "generated_hash": "a425951e43790eda62e07f91ff2bac29225de7b1",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_4-640x.jpg",
+          "generated_hash": "ce53081077dd969ed2524143ae6968738d1fdec2",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_4-1280x.jpg",
+          "generated_hash": "7719675d723cb1e39d8570b1a1e205d56209ff7e",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/choirish_4-1920x.jpg",
+          "generated_hash": "86465b19361c877d46f003a01e78120b21adcf4d",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/concord 1-wide-1.jpg",
-      "generated_hash": "60247b73e9a3c7f633aa8d19209718b2af507c24"
+      "generated_hash": "60247b73e9a3c7f633aa8d19209718b2af507c24",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 1-wide-1-320x.jpg",
+          "generated_hash": "da5413755e6386204be162d633e23256db86691d",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 1-wide-1-640x.jpg",
+          "generated_hash": "e56f17ac904db5a4a0978cf7ab824f3d6114373b",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 1-wide-1-1280x.jpg",
+          "generated_hash": "aafe39b6535f0ab1a62b654c41ae61e693717c64",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 1-wide-1-1920x.jpg",
+          "generated_hash": "0b9abd7280a73c5f4487ed034a412e9662c64963",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/concord 1.jpg",
-      "generated_hash": "9b9998f6d2aaf88eef39356566f32a548939303d"
+      "generated_hash": "9b9998f6d2aaf88eef39356566f32a548939303d",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 1-320x.jpg",
+          "generated_hash": "c760071f066f5e90d6890551e7cd503bbbaf5107",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 1-640x.jpg",
+          "generated_hash": "a94460f65e9b1cb8af9743c879eb0ac8a88641d8",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 1-1280x.jpg",
+          "generated_hash": "7fe29e5805008a81922c82dc5638a16bf7783ff9",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 1-1920x.jpg",
+          "generated_hash": "c309e35211e9150eb25e5500a2e5cae73a1fc0a0",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/concord 2.jpg",
-      "generated_hash": "e655098db0fa321db845ab7986e7a4170cf7b19f"
+      "generated_hash": "e655098db0fa321db845ab7986e7a4170cf7b19f",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 2-1280x.jpg",
+          "generated_hash": "dc088a136ad03c803bc2b02357e1b8e6fcb36efd",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 2-320x.jpg",
+          "generated_hash": "3d55489992b795691b94aeb6ef6e8c541ff347c4",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 2-640x.jpg",
+          "generated_hash": "ce6f0a6e431fc6906a066bf68b9f7b3cda3d0c62",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 2-1920x.jpg",
+          "generated_hash": "92a9dddcf9bfa9e142ba400c3d1813a1eefab0c6",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/concord 3.jpg",
-      "generated_hash": "b14f384b11e4af9251bde7fa5582c5480dc916b7"
+      "generated_hash": "b14f384b11e4af9251bde7fa5582c5480dc916b7",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 3-320x.jpg",
+          "generated_hash": "6f96b62172a10dbc8c0ef4c7192637b314f03d77",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 3-640x.jpg",
+          "generated_hash": "1260e65459813a7bb1519d9159b1a64eff6eb7a6",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 3-1280x.jpg",
+          "generated_hash": "e4359882e4984de6e01f08bae2c6652873cf4d27",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 3-1920x.jpg",
+          "generated_hash": "b4670b4cc415349fdeeb2a826115a95f22e82445",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/concord 4.jpg",
-      "generated_hash": "e4848e1d3aecc8ceef4b5d8915c1d0a4e18036c1"
+      "generated_hash": "e4848e1d3aecc8ceef4b5d8915c1d0a4e18036c1",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 4-320x.jpg",
+          "generated_hash": "b6f0791086298751d73cac98354aad5128e9d762",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 4-640x.jpg",
+          "generated_hash": "6814da62b92f8d34f5c22870f8560d7ddd586aef",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 4-1280x.jpg",
+          "generated_hash": "d08dc7e7721bc6ec240b44160cb2921d11beca24",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/concord 4-1920x.jpg",
+          "generated_hash": "929aed1f26765f365ee211afde230f94566bb2a7",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/copenhagen showband 1.jpg",
-      "generated_hash": "343b80cdb711f47daea3bd289d3a94bf82a4854d"
+      "generated_hash": "343b80cdb711f47daea3bd289d3a94bf82a4854d",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 1-320x.jpg",
+          "generated_hash": "9c983afce7d53cd464769dd296b94a4bd9699cc9",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 1-640x.jpg",
+          "generated_hash": "e90a3ecd8fc044707c4824fd77e25edde5ec4981",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 1-1280x.jpg",
+          "generated_hash": "e2eaa366922b5c68a6cec269e962f7cf2f9d6474",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 1-1920x.jpg",
+          "generated_hash": "e5732184bdf7ae652899a27925b8208956430421",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/copenhagen showband 2.jpg",
-      "generated_hash": "34951455ac5d556403919d25bad83418988fb454"
+      "generated_hash": "34951455ac5d556403919d25bad83418988fb454",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 2-640x.jpg",
+          "generated_hash": "af011f6a334fc32e9632d8809fe3734ce57032e5",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 2-320x.jpg",
+          "generated_hash": "0171b49f50f1d91742daa221fb1bcfc73d4c5265",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 2-1280x.jpg",
+          "generated_hash": "17cb94d510d5877fd8da29eb67e70d7249e5c78e",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 2-1920x.jpg",
+          "generated_hash": "c6e3619e4aeadd827370575c7325853b0077ab47",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/copenhagen showband 3.jpg",
-      "generated_hash": "b2619cfcc289340587fc514c8e0c7eb6c83087e1"
+      "generated_hash": "b2619cfcc289340587fc514c8e0c7eb6c83087e1",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 3-320x.jpg",
+          "generated_hash": "171cd0201f1b192119be91e917c4175cedfa02cb",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 3-640x.jpg",
+          "generated_hash": "4cf5c72a2f4af57b01e76ff24fbad8b57c9c6f93",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 3-1280x.jpg",
+          "generated_hash": "c977f2a7789f971db79c0d91554f24bb50f3819f",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 3-1920x.jpg",
+          "generated_hash": "965cb8c3f628096497b7389e7b850a2e93efde0d",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/copenhagen showband 4.jpg",
-      "generated_hash": "058a6687c85786ffab6cc54c58a1f05a137d0d33"
+      "generated_hash": "058a6687c85786ffab6cc54c58a1f05a137d0d33",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 4-320x.jpg",
+          "generated_hash": "9b24f46d5fd35f665e6a042e0180c6bcb847527c",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 4-640x.jpg",
+          "generated_hash": "24523214758d1872496599ee79f73163753d67f4",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 4-1280x.jpg",
+          "generated_hash": "a0869fec6a4b6bc1efd900123e3a2ea2daedcdef",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/copenhagen showband 4-1920x.jpg",
+          "generated_hash": "de683546c5ec62dfb1f9cf8c72ff3a4c2d8c7d4b",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/glee_1.jpg",
-      "generated_hash": "d45722a506aa1102dc7e701a9f5ae6a98a22def9"
+      "generated_hash": "d45722a506aa1102dc7e701a9f5ae6a98a22def9",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_1-320x.jpg",
+          "generated_hash": "0f98b12022333f59ab6d8d9c45ba69883488b518",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_1-640x.jpg",
+          "generated_hash": "4ff203a7d6ff0e1409f715d008549d68210559a3",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_1-1280x.jpg",
+          "generated_hash": "fc745ec2f07101e866a4c97707df84e01e0cb23e",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_1-1920x.jpg",
+          "generated_hash": "797866d4da969d98485b03418ffbfe1a6e5284a4",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/glee_2.png",
-      "generated_hash": "d90a7e38b62fb9c5b2da9133e3336e9fd973aaef"
+      "generated_hash": "d90a7e38b62fb9c5b2da9133e3336e9fd973aaef",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_2-320x.png",
+          "generated_hash": "8556ef63c9dd49fcd513a5c693e21e549ad2ace5",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_2-640x.png",
+          "generated_hash": "8189b42b324093b70fff560bd61547fb1c65beeb",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_2-1280x.png",
+          "generated_hash": "d7819b9eb6c1fa47d7b4f9c62dbda1ac6f6e965d",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_2-1920x.png",
+          "generated_hash": "fece770ceee90416bbd88a401db8dcc6e68a4cd1",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/glee_3.jpg",
-      "generated_hash": "8b3ef62dbac875b2bc990b11def311a25e2ccdd0"
+      "generated_hash": "8b3ef62dbac875b2bc990b11def311a25e2ccdd0",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_3-320x.jpg",
+          "generated_hash": "c829e0d0239727ec6175d5031fe859c84ac90f2d",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_3-640x.jpg",
+          "generated_hash": "96dc737099295a80ffcc89d8b746fdb1ced94210",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_3-1280x.jpg",
+          "generated_hash": "274fbf454061f1edd47050d5def999b9afd0bea8",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_3-1920x.jpg",
+          "generated_hash": "88b7241d4ec12a131f127537494d0221632d8148",
+          "last_changed": 1526933440970
+        }
+      ]
     },
     {
       "file": "hugo/static/uploads/2018/04/12/glee_4.jpg",
-      "generated_hash": "2b4ca891f127896e55b740c8820c67d465ffcd9e"
+      "generated_hash": "2b4ca891f127896e55b740c8820c67d465ffcd9e",
+      "last_changed": 1526933440970,
+      "outputs": [
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_4-320x.jpg",
+          "generated_hash": "7ad5ae0fdc65a8f7fa732cddceea2c43f5cb00dd",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_4-640x.jpg",
+          "generated_hash": "7d70a1d37c1f9333666b789e0f2032cbc1f19cf4",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_4-1280x.jpg",
+          "generated_hash": "652a0dc0bc92aae682fd142f4c574793f940dd00",
+          "last_changed": 1526933440970
+        },
+        {
+          "file": "hugo/images-cache/2018/04/12/glee_4-1920x.jpg",
+          "generated_hash": "4cd1161e80e08eae25473c51dd40d9d80427816f",
+          "last_changed": 1526933440970
+        }
+      ]
     }
   ]
 }

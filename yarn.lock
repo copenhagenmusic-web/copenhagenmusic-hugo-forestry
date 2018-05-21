@@ -3226,9 +3226,9 @@ gulp-filter@^5.1.0:
     plugin-error "^0.1.2"
     streamfilter "^1.0.5"
 
-gulp-hashstore@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/gulp-hashstore/-/gulp-hashstore-0.2.0.tgz#dec777e8e95f6702fea495f99c62b212b3caf609"
+gulp-hashstore@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/gulp-hashstore/-/gulp-hashstore-0.2.2.tgz#6ef18e5659020d3d35d970fd4d0ccb9758aadcd6"
   dependencies:
     chalk "^2.3.0"
     fancy-log "^1.3.2"

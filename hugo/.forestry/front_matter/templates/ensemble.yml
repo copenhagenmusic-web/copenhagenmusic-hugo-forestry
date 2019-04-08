@@ -1,6 +1,6 @@
 ---
+label: ensemble
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -58,3 +58,24 @@ fields:
 - type: image_gallery
   name: gallery
   label: Gallery
+pages:
+- hugo/content/ensemble/roest.md
+- hugo/content/ensemble/concord-brass-band.md
+- hugo/content/ensemble/drk-.md
+- hugo/content/ensemble/heidis-und-hosen.md
+- hugo/content/ensemble/choirish.md
+- hugo/content/ensemble/soeng.md
+- hugo/content/ensemble/drk-.en.md
+- hugo/content/ensemble/roest.en.md
+- hugo/content/ensemble/copenhagen-showband.en.md
+- hugo/content/ensemble/heidis-und-hosen.en.md
+- hugo/content/ensemble/copenhagen-glee-club.md
+- hugo/content/ensemble/copenhagen-showband.md
+- hugo/content/ensemble/beat-that-blue.md
+- hugo/content/ensemble/zoobrass.en.md
+- hugo/content/ensemble/zoobrass.md
+- hugo/content/ensemble/soeng.en.md
+- hugo/content/ensemble/copenhagen-glee-club.en.md
+- hugo/content/ensemble/beat-that-blue.en.md
+- hugo/content/ensemble/choirish.en.md
+- hugo/content/ensemble/concord-brass-band.en.md

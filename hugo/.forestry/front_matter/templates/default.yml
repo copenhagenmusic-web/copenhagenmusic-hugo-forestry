@@ -1,12 +1,6 @@
 ---
-pages:
-- _index.en.md
-- om.en.md
-- ledelsesgruppen.md
-- om.md
-- _index.md
+label: default
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -35,3 +29,9 @@ fields:
   type: text
   hidden: true
   default: page
+pages:
+- hugo/content/ledelsesgruppen.md
+- hugo/content/_index.md
+- hugo/content/_index.en.md
+- hugo/content/om.en.md
+- hugo/content/om.md

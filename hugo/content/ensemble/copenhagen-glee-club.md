@@ -13,10 +13,6 @@ title = "ACE Performance Singers "
 weight = 4
 
 +++
-Copenhagen Glee Club er den første gruppe af sin slags i Danmark!
+Ace - Performance Singers blev stiftet for 7 år siden under navnet Copenhagen Glee Club. Stifteren var Nina Kragh som startede koret i forbindelse med et musikprojekt på studiet. I september 2018 skiftede gruppen navn til Ace - Performance Singers med det formål at skabe det rigtige image for gruppen, både internt og eksternt.
 
-”Glee Club” er en amerikansk showchoir tradition, hvor der performes med en energisk kombinationen af sang og dans.
-
-20 sangere plus tre faste musikere udgør Copenhagen Glee Club. Vi performer med musik af fx Taylor Swift, Adele, Michael Jackson, Stevie Wonder og Lady Gaga, og vi elsker at optræde!
-
-Når vi indtager scenen med energi og spilleglæde, er det smittende og fængende, har vi hørt fra vores publikum... Hør os og se, hvad du selv synes!
+ Ace – Performance Singers er det første og førende showkor i Danmark, hvor vi kombinere både dans og sang i vores optrædener. Alderskategorien i koret ligger mellem 20-32 år og består af 1. sopraner, mezzo-sopraner, 1. alter, mezzo-alter, tenorer samt basser. Vi optræder med vores egne versioner af kendte musiknumre (primært pop, gammelt såvel som nyt), hvor vores instrumentale kvartet bakker os op på trommer (cajun), bas, guitar og klaver.

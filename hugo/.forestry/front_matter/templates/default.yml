@@ -31,7 +31,7 @@ fields:
   default: page
 pages:
 - hugo/content/ledelsesgruppen.md
-- hugo/content/_index.md
 - hugo/content/_index.en.md
 - hugo/content/om.en.md
 - hugo/content/om.md
+- hugo/content/_index.md

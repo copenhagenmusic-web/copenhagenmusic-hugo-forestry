@@ -1,15 +1,15 @@
 +++
-contactEmail = "manager@gleeclub.dk"
+contactEmail = "manager@acesingers.dk"
 date = "2018-04-09T20:47:45Z"
 description = "Showkor"
 gallery = ["/uploads/2018/04/12/glee_1.jpg", "/uploads/2018/04/12/glee_2.png"]
 image = "/uploads/2018/04/12/glee_4.jpg"
 imageVertAlign = 60
-linkFacebook = "https://www.facebook.com/copenhagengleeclub/"
-linkInstagram = "https://www.instagram.com/copenhagengleeclub/"
+linkFacebook = "https://www.facebook.com/aceperformancesingers/"
+linkInstagram = "https://www.instagram.com/aceperformancesingers/"
 linkSoundcloud = ""
 linkWebsite = ""
-title = "Copenhagen Glee Club"
+title = "ACE Performance Singers "
 weight = 4
 
 +++

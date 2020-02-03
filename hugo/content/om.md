@@ -1,7 +1,7 @@
 +++
 date = "2018-04-09T20:55:23Z"
 image = ""
-imageVertAlign = nil
+imageVertAlign = 50
 subtitle = ""
 title = "Om Copenhagen Music"
 type = "page"

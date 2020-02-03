@@ -32,7 +32,6 @@ fields:
 pages:
 - hugo/content/_index.en.md
 - hugo/content/_index.md
-- hugo/content/ledelsesgruppen-2.md
 - hugo/content/ledelsesgruppen.md
 - hugo/content/om.en.md
 - hugo/content/om.md

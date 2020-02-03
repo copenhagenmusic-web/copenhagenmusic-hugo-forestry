@@ -11,7 +11,7 @@ type = "page"
 
 <p>Ledelsesgruppen har ansvaret for Copenhagen Musics udvikling og består p.t. af:</p>
 
-<p><strong>Manager</strong><br> Astrid Gotlieb<br>Mobil: 61265227<br> ag@copenhagenmusic.dk</p>
+<p><strong>Manager</strong><br>Astrid Gotlieb<br>Mobil: 61265227<br> ag@copenhagenmusic.dk</p>
 
 <p><strong>Økonomiansvarlig</strong><br>Martin Bjergfelt<br>Mobil: 23810893<br>mb@copenhagenmusic.dk</p>
 

@@ -1,6 +1,5 @@
 +++
 date = "2018-04-09T20:55:23Z"
-draft = true
 image = ""
 imageVertAlign = nil
 subtitle = ""

@@ -26,5 +26,3 @@ Ledelsesgruppen har ansvaret for Copenhagen Musics udvikling og består p.t. af:
 <strong>Suppleant</strong><br>Martin Ree
 
 <strong>Suppleant</strong><br>Klement Kløtzl
-
-Test

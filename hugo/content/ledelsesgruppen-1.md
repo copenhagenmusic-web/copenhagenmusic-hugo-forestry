@@ -1,5 +1,4 @@
 +++
-draft = true
 image = ""
 imageVertAlign = 50
 subtitle = ""

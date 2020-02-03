@@ -64,4 +64,4 @@ Kan I sige ja til alle fire punkter – og er I klar til at lade handling følge
 
 <a href="/uploads/2018/04/09/CM_vedtaegter_2013.pdf" class="no-barba">Download vedtægter som PDF</a>
 
-[Ledelsesgruppen](/ledelsesgruppen "Ledelsesgruppen")
+[Ledelsesgruppen](/ledelse "Ledelsesgruppen")

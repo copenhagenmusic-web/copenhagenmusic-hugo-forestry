@@ -6,7 +6,7 @@ title = "Ledelsesgruppen"
 type = "page"
 
 +++
-<h1 id="ledelsesgruppen">Ledelsesgruppen</h1>
+Ledelsesgruppen
 
 <p>Ledelsesgruppen har ansvaret for Copenhagen Musics udvikling og består p.t. af:</p>
 

@@ -1,7 +1,7 @@
 +++
 date = "2018-04-09T21:04:00Z"
 image = ""
-imageVertAlign = 0
+imageVertAlign = nil
 subtitle = ""
 title = "Ledelsesgruppen"
 type = "page"
@@ -26,3 +26,5 @@ Ledelsesgruppen har ansvaret for Copenhagen Musics udvikling og består p.t. af:
 <strong>Suppleant</strong><br>Martin Ree
 
 <strong>Suppleant</strong><br>Klement Kløtzl
+
+Test

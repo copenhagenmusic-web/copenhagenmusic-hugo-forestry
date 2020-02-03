@@ -2,7 +2,7 @@
 image = ""
 imageVertAlign = 50
 subtitle = ""
-title = "Ledelsesgruppen"
+title = "Ledelse"
 type = "page"
 
 +++

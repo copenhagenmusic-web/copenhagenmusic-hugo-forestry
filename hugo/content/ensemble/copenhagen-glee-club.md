@@ -2,7 +2,7 @@
 contactEmail = "manager@acesingers.dk"
 date = "2018-04-09T20:47:45Z"
 description = "Showkor"
-gallery = ["/uploads/2018/04/12/glee_1.jpg", "/uploads/2019/10/06/FB_IMG_1570392614369.jpg"]
+gallery = ["/uploads/2020/02/04/Ace Performance Singers2.jpg", "/uploads/2020/02/04/Ace Performance Singers1.jpg", "/uploads/2018/04/12/glee_1.jpg", "/uploads/2019/10/06/FB_IMG_1570392614369.jpg"]
 image = "/uploads/2020/02/04/kWLT5viO.jpeg"
 imageVertAlign = 60
 linkFacebook = "https://www.facebook.com/aceperformancesingers/"

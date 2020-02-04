@@ -2,8 +2,9 @@
 contactEmail = "bandmanager@copenhagenshowband.dk"
 date = "2018-04-09T20:47:28Z"
 description = "Nordeuropas største streetorkester"
-gallery = ["/uploads/2018/04/12/copenhagen showband 2.jpg", "/uploads/2018/04/12/copenhagen showband 3.jpg", "/uploads/2018/04/12/copenhagen showband 4.jpg"]
+gallery = ["/uploads/2020/02/04/Copenhagen Showband.jpg", "/uploads/2020/02/04/Copenhagen Showband 3.jpg", "/uploads/2020/02/04/Copenhagen Showband 2.jpg", "/uploads/2018/04/12/copenhagen showband 2.jpg", "/uploads/2018/04/12/copenhagen showband 3.jpg", "/uploads/2018/04/12/copenhagen showband 4.jpg"]
 image = "/uploads/2018/04/12/copenhagen showband 1.jpg"
+imageVertAlign = nil
 linkFacebook = "https://www.facebook.com/CopenhagenShowband/"
 linkInstagram = "https://www.instagram.com/copenhagenshowband/"
 linkSoundcloud = ""

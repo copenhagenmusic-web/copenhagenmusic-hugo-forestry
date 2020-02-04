@@ -2857,6 +2857,150 @@
           "last_changed": 1580807906167
         }
       ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband 2-1280x.jpg",
+      "generated_hash": "8116ae64f147f0cea53fe0ee32b343825a543ea9",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband 2-1280x.jpg",
+          "generated_hash": "8116ae64f147f0cea53fe0ee32b343825a543ea9",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband 2-1920x.jpg",
+      "generated_hash": "390710919a646083faffe670b113236e403a41a2",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband 2-1920x.jpg",
+          "generated_hash": "390710919a646083faffe670b113236e403a41a2",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband 2-320x.jpg",
+      "generated_hash": "9f8ab352391ce0261fa6b83e3e1ee1768d612090",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband 2-320x.jpg",
+          "generated_hash": "9f8ab352391ce0261fa6b83e3e1ee1768d612090",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband 2-640x.jpg",
+      "generated_hash": "c35446eacce9dae1c78e07bbd122e02e798349e6",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband 2-640x.jpg",
+          "generated_hash": "c35446eacce9dae1c78e07bbd122e02e798349e6",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband 3-1280x.jpg",
+      "generated_hash": "a795dea39a948729257988a5c67d2a5350bb9c54",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband 3-1280x.jpg",
+          "generated_hash": "a795dea39a948729257988a5c67d2a5350bb9c54",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband 3-1920x.jpg",
+      "generated_hash": "1aebbab7809abf2aeb5bd5bf517f0ddecdd5379b",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband 3-1920x.jpg",
+          "generated_hash": "1aebbab7809abf2aeb5bd5bf517f0ddecdd5379b",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband 3-320x.jpg",
+      "generated_hash": "0a3b659df520faeb2a947d1c0be021b43aea4d53",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband 3-320x.jpg",
+          "generated_hash": "0a3b659df520faeb2a947d1c0be021b43aea4d53",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband 3-640x.jpg",
+      "generated_hash": "ab13f5217f6c0dffe634577b420779a84a06d219",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband 3-640x.jpg",
+          "generated_hash": "ab13f5217f6c0dffe634577b420779a84a06d219",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband-1280x.jpg",
+      "generated_hash": "b2fd59a5168843a4a40339302ead1ae58df601e4",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband-1280x.jpg",
+          "generated_hash": "b2fd59a5168843a4a40339302ead1ae58df601e4",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband-1920x.jpg",
+      "generated_hash": "ea5e2e04800465382724181c6694a285cad0cc44",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband-1920x.jpg",
+          "generated_hash": "ea5e2e04800465382724181c6694a285cad0cc44",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband-320x.jpg",
+      "generated_hash": "c2c2a72d3264644cdd6deb32b128a5e1d3653ee6",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband-320x.jpg",
+          "generated_hash": "c2c2a72d3264644cdd6deb32b128a5e1d3653ee6",
+          "last_changed": 1580808518907
+        }
+      ]
+    },
+    {
+      "file": "hugo/images-cache/2020/02/04/Copenhagen Showband-640x.jpg",
+      "generated_hash": "ee796abe920f4c54875ca16647e732ada40eb186",
+      "last_changed": 1580808518907,
+      "outputs": [
+        {
+          "file": "hugo/static/images/2020/02/04/Copenhagen Showband-640x.jpg",
+          "generated_hash": "ee796abe920f4c54875ca16647e732ada40eb186",
+          "last_changed": 1580808518907
+        }
+      ]
     }
   ]
 }

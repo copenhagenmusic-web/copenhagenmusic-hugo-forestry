@@ -23,6 +23,6 @@ Ledelsesgruppen har ansvaret for Copenhagen Musics udvikling og består p.t. af:
 
 <strong>Revisor</strong><br>Danni Østergaard<br> dannioestergaard@gmail.com
 
-<strong>Suppleant</strong><br>Martin Ree
+<strong>suppleant</strong><br>Martin Ree
 
-<strong>Suppleant</strong><br>Klement Kløtzl
+<strong>suppleant</strong><br>Klement Kløtzl

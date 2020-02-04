@@ -27,4 +27,6 @@ Se og hør meget mere på:
 
 [Website](http://www.beat-that-blue.dk/kontakt/ "http://www.beat-that-blue.dk/kontakt/")<br>
 
-[![](/uploads/2020/02/04/Capture.GIF)](https://www.facebook.com/beatthatblue/ "https://www.facebook.com/beatthatblue/")
+[Facebook](https://www.facebook.com/beatthatblue/ "https://www.facebook.com/beatthatblue/")<br>
+
+[Instagram]()

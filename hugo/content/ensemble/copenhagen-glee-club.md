@@ -19,6 +19,8 @@ Ace – Performance Singers er det første og førende showkor i Danmark, hvor v
 
 <strong>Kontakt: </strong>manager@acesingers.dk <br> 
 
-[https://www.facebook.com/aceperformancesingers/ ](https://www.facebook.com/aceperformancesingers/ "Facebook")<br> 
+Se og høre meget mere på:
 
-[https://www.instagram.com/aceperformancesingers/](https://www.instagram.com/aceperformancesingers/ "Instagram")
+[Facebook](https://www.facebook.com/aceperformancesingers/ "https://www.facebook.com/aceperformancesingers/") <br> 
+
+[Instagram](https://www.instagram.com/aceperformancesingers/ "https://www.instagram.com/aceperformancesingers/")

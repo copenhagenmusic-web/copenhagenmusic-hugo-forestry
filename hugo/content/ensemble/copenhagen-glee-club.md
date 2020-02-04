@@ -17,10 +17,10 @@ Ace - Performance Singers blev stiftet for 7 år siden under navnet Copenhagen G
 
 Ace – Performance Singers er det første og førende showkor i Danmark, hvor vi kombinere både dans og sang i vores optrædener. Alderskategorien i koret ligger mellem 20-32 år og består af 1. sopraner, mezzo-sopraner, 1. alter, mezzo-alter, tenorer samt basser. Vi optræder med vores egne versioner af kendte musiknumre (primært pop, gammelt såvel som nyt), hvor vores instrumentale kvartet bakker os op på trommer (cajun), bas, guitar og klaver.
 
-<strong>Kontakt: </strong>manager@acesingers.dk <br> 
+<strong>Kontakt: </strong>manager@acesingers.dk <br>
 
-Se og høre meget mere på:
+Se og hør meget mere på:
 
-[Facebook](https://www.facebook.com/aceperformancesingers/ "https://www.facebook.com/aceperformancesingers/") <br> 
+[Facebook](https://www.facebook.com/aceperformancesingers/ "https://www.facebook.com/aceperformancesingers/") <br>
 
 [Instagram](https://www.instagram.com/aceperformancesingers/ "https://www.instagram.com/aceperformancesingers/")

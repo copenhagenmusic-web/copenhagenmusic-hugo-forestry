@@ -18,3 +18,11 @@ Beat That Blue serverer storswingende superhits fra et halvt århundredes pop- o
 Når Beat That Blue er på scenen, står menuen ikke på kammertoner og salmesang, men veldrejede rock-, pop- og soulhits af sværvægtere som U2, Michael Jackson og Coldplay, arrangeret i korversioner, der enten giver dig dansefeber eller en klump i halsen.
 
 Vi holder jævnligt koncerter i København og er klar til at optræde med kort varsel, indendørs eller udendørs, som en vokal kærlighedserklæring, en flerstemmig fødselsdagsgave, eller ganske enkelt når du vil have en fed og anderledes musikalsk oplevelse. Vi stiller enten op i vores grundformation med dirigent Stephan F. Haagensen, som et rent a capella-ensemble eller akkompagneret på klaver, når den skal have en ekstra en over nakken.
+
+<strong>Booking: </strong> booking@beat-that-blue.dk<br> 
+
+<strong>Er du det næste nye medlem: </strong> nytmedlem@beat-that-blue.dk
+
+Se og hør meget mere på:
+
+[Website](http://www.beat-that-blue.dk/kontakt/ "http://www.beat-that-blue.dk/kontakt/")<br> 

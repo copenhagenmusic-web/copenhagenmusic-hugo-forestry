@@ -15,4 +15,10 @@ weight = 4
 +++
 Ace - Performance Singers blev stiftet for 7 år siden under navnet Copenhagen Glee Club. Stifteren var Nina Kragh som startede koret i forbindelse med et musikprojekt på studiet. I september 2018 skiftede gruppen navn til Ace - Performance Singers med det formål at skabe det rigtige image for gruppen, både internt og eksternt.
 
- Ace – Performance Singers er det første og førende showkor i Danmark, hvor vi kombinere både dans og sang i vores optrædener. Alderskategorien i koret ligger mellem 20-32 år og består af 1. sopraner, mezzo-sopraner, 1. alter, mezzo-alter, tenorer samt basser. Vi optræder med vores egne versioner af kendte musiknumre (primært pop, gammelt såvel som nyt), hvor vores instrumentale kvartet bakker os op på trommer (cajun), bas, guitar og klaver.
+Ace – Performance Singers er det første og førende showkor i Danmark, hvor vi kombinere både dans og sang i vores optrædener. Alderskategorien i koret ligger mellem 20-32 år og består af 1. sopraner, mezzo-sopraner, 1. alter, mezzo-alter, tenorer samt basser. Vi optræder med vores egne versioner af kendte musiknumre (primært pop, gammelt såvel som nyt), hvor vores instrumentale kvartet bakker os op på trommer (cajun), bas, guitar og klaver.
+
+<strong>Kontakt: </strong>manager@acesingers.dk <br> 
+
+[https://www.facebook.com/aceperformancesingers/ ](https://www.facebook.com/aceperformancesingers/ "Facebook")<br> 
+
+[https://www.instagram.com/aceperformancesingers/](https://www.instagram.com/aceperformancesingers/ "Instagram")

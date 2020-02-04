@@ -2,7 +2,7 @@
 contactEmail = "post@beat-that-blue.dk"
 date = "2018-04-09T20:46:40Z"
 description = "Rockkor"
-gallery = ["/uploads/2018/04/12/beat_that_blue_5.jpg", "/uploads/2018/04/12/beat_that_blue_1.jpg", "/uploads/2018/04/12/beat_that_blue_4.jpg", "/uploads/2018/04/12/beat_that_blue_2.jpg", "/uploads/2018/04/12/beat_that_blue_3.jpg"]
+gallery = ["/uploads/2020/02/04/42163153_1863107297108100_6253214594743926784_n.png", "/uploads/2018/04/12/beat_that_blue_5.jpg", "/uploads/2018/04/12/beat_that_blue_1.jpg", "/uploads/2018/04/12/beat_that_blue_4.jpg", "/uploads/2018/04/12/beat_that_blue_3.jpg"]
 image = "/uploads/2018/04/12/beat_that_blue_6.jpg"
 imageVertAlign = 40
 linkFacebook = "https://www.facebook.com/beatthatblue/"

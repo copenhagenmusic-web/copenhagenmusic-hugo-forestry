@@ -3,6 +3,7 @@ image = "/uploads/2018/01/01/unsplash-brandon-lam-29892.jpg"
 title = "Eksempel Ensemble"
 type = "ensemble"
 weight = 1
+imageVertAlign = "50"
 gallery = ["/uploads/2018/01/01/unsplash-brandon-lam-29892.jpg", "/uploads/2018/01/01/unsplash-jason-wong-292853.jpg", "/uploads/2018/01/01/unsplash-garrett-parker-247225.jpg"]
 description = "Kor"
 linkWebsite = "google.com"

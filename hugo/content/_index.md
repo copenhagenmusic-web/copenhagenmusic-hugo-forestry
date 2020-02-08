@@ -1,11 +1,12 @@
----
-title: Home
-type: page
-image: ''
-subtitle: Vi får musikken til at spille
-date: 2018-04-01 19:51:00 +0000
++++
+date = "2018-04-01T19:51:00Z"
+image = ""
+imageVertAlign = "50"
+subtitle = "Vi får musikken til at spille"
+title = "Home"
+type = "page"
 
----
++++
 Copenhagen Music er Københavns store musikforening for orkestre og kor.
 
 De 200 unge fritidsmusikere i foreningen synger og spiller på alt fra sexede saxer til pompøse pauker. Og foreningen er i en rygende udvikling med flere medlemmer på vej.

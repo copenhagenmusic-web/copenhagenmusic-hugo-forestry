@@ -1,7 +1,7 @@
 +++
 date = "2018-04-09T21:04:00Z"
 image = ""
-imageVertAlign = 50
+imageVertAlign = "50"
 subtitle = ""
 title = "Ledelsesgruppen"
 type = "page"

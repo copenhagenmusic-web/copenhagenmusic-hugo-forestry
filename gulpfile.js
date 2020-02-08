@@ -10,8 +10,6 @@ var chalk = require('chalk');
 var crypto = require('crypto');
 var fs = require('fs');
 
-var hashstore = require('gulp-hashstore');
-
 // Auto load Gulp plugins
 const plugins = gulpLoadPlugins({
   rename: {
@@ -66,27 +64,21 @@ function imgResponsive() {
 }
 
 //
-// Optimize responsive images and copy to final location
+// Copy responsive images to final location
 function imgMinJpg () {
   return gulp.src(['src/images/**/*.*', 'hugo/images-cache/**/*.*'])
     .pipe(plugins.filter(file => /\.(jpg|jpeg|png)$/i.test(file.path)))
     .pipe(plugins.rename(makeLowerCaseExt))
-    .pipe(plugins.hashstore.sources(config.imageminJpgHashstore, { logTree: false }))
-    .pipe(plugins.imagemin({verbose: true}))
-    .pipe(gulp.dest('hugo/static/images/'))
-    .pipe(plugins.hashstore.results(config.imageminJpgHashstore));
+    .pipe(gulp.dest('hugo/static/images/'));
 }
 
 //
-// Optimize and copy svg or gif images to final destination
+// Copy svg or gif images to final destination
 function imgMinGif () {
   return gulp.src(['src/images/**/*.*', 'hugo/images-cache/**/*.*'])
     .pipe(plugins.filter(file => /\.(gif|svg)$/i.test(file.path)))
     .pipe(plugins.rename(makeLowerCaseExt))
-    .pipe(plugins.hashstore.sources(config.imageminGifHashstore, { logTree: false }))
-    .pipe(plugins.imagemin({verbose: true}))
-    .pipe(gulp.dest('hugo/static/images/'))
-    .pipe(plugins.hashstore.results(config.imageminGifHashstore));
+    .pipe(gulp.dest('hugo/static/images/'));
 }
 
 // Image output generation can be iffy unless lowercase extensions are used..
@@ -103,7 +95,7 @@ gulp.task('generate-favicon', function(done) {
 
   sha1sum.update(fs.readFileSync(filename));
   var generated_hash = sha1sum.digest('hex');
-  
+
   if (fs.existsSync(config.faviconDataFile)) {
     var dataFile = JSON.parse(fs.readFileSync(config.faviconDataFile));
     if (dataFile.generated_hash === generated_hash) {
@@ -166,20 +158,20 @@ gulp.task('vendorStyles', () => {
 // Linting
 // .eslintrc.json can be used by your editor (see README.md)
 // eslint rules for js aimed at browser are in config/
-let lintJs = lazypipe()
-  .pipe(plugins.eslint, 'config/eslint.json')
-  .pipe(plugins.eslint.format);
+// let lintJs = lazypipe()
+//   .pipe(plugins.eslint, 'config/eslint.json')
+//   .pipe(plugins.eslint.format);
 
 // dev js tasks
 function scripts () {
   return gulp.src('src/scripts/*.js', { since: gulp.lastRun(scripts) })
-    .pipe(lintJs())
+    // .pipe(lintJs())
     .pipe(plugins.inlinerjs())
     .pipe(gulp.dest('hugo/static/scripts/'));
 }
 function scriptsHead () {
   return gulp.src('src/scripts_head/*.js', { since: gulp.lastRun(scriptsHead) })
-    .pipe(lintJs())
+    // .pipe(lintJs())
     .pipe(plugins.inlinerjs())
     .pipe(gulp.dest('hugo/static/scripts_head/'));
 }
@@ -238,7 +230,7 @@ function injectHead () {
   let scriptsHead = gulp.src('hugo/static/scripts_head/*.js', {read: false});
   let projectCss = gulp.src('hugo/static/styles/*.css', {read: false});
   let vendorCss = gulp.src('hugo/static/styles_vendor/*.css', {read: false});
-  
+
   return gulp.src('hugo/layouts/partials/head-meta.html')
   .pipe(plugins.inject(sseries(modernizrPath, scriptsHead),
   {transform: transformToHugoPaths, selfClosingTag: true, ignorePath: 'hugo/static/', name: 'head'}))
@@ -249,7 +241,7 @@ function injectHead () {
 
 function injectFoot () {
   let scriptsFooter = gulp.src('hugo/static/scripts/*.js', {read: false});
-  
+
   return gulp.src('hugo/layouts/partials/footer-scripts.html')
     .pipe(plugins.inject(scriptsFooter,
       {transform: transformToHugoPaths, ignorePath: 'hugo/static/'}))
@@ -260,7 +252,7 @@ function transformToHugoPaths(filepath) {
   if (filepath.slice(-3) === '.js') {
     return '<script src="{{ \"' + filepath + '\" | relURL }}"></script>';
   }
-  if (filepath.slice(-4) === '.css') {  
+  if (filepath.slice(-4) === '.css') {
     return '<link href="{{ \"' + filepath + '\" | relURL }}" rel="stylesheet" type="text/css">';
   }
   // Use the default transform as fallback:

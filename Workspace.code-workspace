@@ -5,15 +5,12 @@
 		},
 		{
 			"path": "hugo"
-		},
-		{
-			"path": "hugo\\themes"
-		},
-		{
-			"path": "."
-		}
+    },
+    {
+      "path": "."
+    }
 	],
 	"settings": {
 		"editor.tabSize": 2
-	},
+	}
 }

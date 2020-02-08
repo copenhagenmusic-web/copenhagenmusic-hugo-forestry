@@ -30,14 +30,16 @@
     </div>
 </nav>
 
-{{ partial "header-image-style" . }}
-
 {{ partial "intro-blurb.html" . }}
 
 <!-- Page Header -->
 {{ if not .IsHome }}
   {{ $defaultLanguagePage := index .AllTranslations 0 }}
-<header data-responsive-background-image class="intro-header" style="width: 100%;">
+  {{ $safeImageVertAlign := replaceRE "[^0-9]" "" .Params.imageVertAlign}}
+  {{ $intImageVertAlign := int (cond (eq $safeImageVertAlign "" ) "50" ($safeImageVertAlign | strings.TrimLeft "0")) }}
+  {{ $boundedImageVertAlign := cond (lt $intImageVertAlign 0) 50 (cond (gt $intImageVertAlign 100) 50 $intImageVertAlign) }}
+  {{ $headerClassCentering := (mul (div ($boundedImageVertAlign) 10) 10 )}}
+<header data-responsive-background-image class="intro-header-{{ $headerClassCentering }}" style="width: 100%;">
   {{ $image := $defaultLanguagePage.Params.image }}
   {{ if not ($image | default "" | eq "") }}
     {{ partial "image-srcset" (dict "path" $image "sizes" "100vw" ) }}

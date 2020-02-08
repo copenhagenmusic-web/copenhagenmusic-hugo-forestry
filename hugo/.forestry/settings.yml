@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin"
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
   path: hugo/content
@@ -19,11 +19,11 @@ public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:/:month:/:day:/:filename:"
-instant_preview: 
+instant_preview: false
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.38.1
+  - HUGO_VERSION=0.52
   - BUILD_DIR=hugo
   preview_output_directory: hugo/public
   preview_docker_image: forestryio/build:latest
@@ -33,7 +33,7 @@ build:
   publish_command: hugo -d public
   publish_env:
   - HUGO_ENV=production
-  - HUGO_VERSION=0.38.1
+  - HUGO_VERSION=0.52
   output_directory: public
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
-version: 0.38.1
+version: 0.52

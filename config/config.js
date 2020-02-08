@@ -45,9 +45,6 @@ module.exports = {
     errorOnUnusedConfig: false
   },
 
-  imageminJpgHashstore: 'hugo/static/images/imageminJpgHashstore.json',
-  imageminGifHashstore: 'hugo/static/images/imageminGifHashstore.json',
-
   //
   // PostCSS plugins and their options
   // For dev
@@ -55,7 +52,6 @@ module.exports = {
     require('postcss-import')(),
     require('postcss-normalize')(),
     require('postcss-cssnext')(),
-    require('colorguard')({ threshold: ['3'] }),
     require('postcss-wcag-contrast')({ compliance: 'AA' }),
     require('postcss-zindex')(),
     require('css-mqpacker')(),
@@ -97,7 +93,7 @@ module.exports = {
 
   //
   // Favicon generator
-  // 
+  //
   faviconDataFile: 'hugo/static/faviconData.json',
   faviconOptions: function(filename, generated_hash) {
     return {

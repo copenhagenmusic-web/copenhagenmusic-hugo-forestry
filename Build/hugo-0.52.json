@@ -1,9 +1,9 @@
 {
-    "version": "0.38.1",
+    "version": "0.52",
     "license": "https://github.com/spf13/hugo/blob/master/LICENSE.md",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spf13/hugo/releases/download/v0.38.1/hugo_0.38.1_windows-64bit.zip",
+            "url": "https://github.com/spf13/hugo/releases/download/v0.52/hugo_0.52_windows-64bit.zip",
             "hash": "9dfda1f11a2a237cbc8b2bca5cf55cc9be9182d3644e2518e5a8af3c11492fc7"
         }
     },

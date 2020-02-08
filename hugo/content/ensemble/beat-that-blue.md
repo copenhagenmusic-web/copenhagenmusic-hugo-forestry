@@ -28,5 +28,3 @@ Se og hør meget mere på:
 [Website](http://www.beat-that-blue.dk/kontakt/ "http://www.beat-that-blue.dk/kontakt/")<br>
 
 [Facebook](https://www.facebook.com/beatthatblue/ "https://www.facebook.com/beatthatblue/")<br>
-
-[Instagram]()

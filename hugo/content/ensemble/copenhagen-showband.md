@@ -27,4 +27,4 @@ Se og hør meget mere på:
 
 [Instagram](https://www.instagram.com/copenhagenshowband/?hl=da "https://www.instagram.com/copenhagenshowband/?hl=da")<br>
 
-[Website](www.copenhagenshowband.dk "www.copenhagenshowband.dk")<br>
+[Website](http://copenhagenshowband.dk/ "http://copenhagenshowband.dk/")<br>

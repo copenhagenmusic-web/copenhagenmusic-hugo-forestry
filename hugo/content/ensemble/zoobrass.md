@@ -15,6 +15,14 @@ weight = 10
 +++
 See the music go wild!
 
-Zoobrass er funky blæsermusik for børn (og deres voksne)! De underholder med et program i børnehøjde indeholdende dans og sang.  
+Zoobrass er funky blæsermusik for børn (og deres voksne)! De underholder med et program i børnehøjde indeholdende dans og sang.
 
-100 % unplugged og derfor 100 % mobile. 
+100 % unplugged og derfor 100 % mobile.
+
+Se og hør meget mere på:
+
+[Website](http://www.zoobrass.dk/?fbclid=IwAR3NfqTpL5wv4zeu7tQqo9xF-inMO7sBV6JjUnFkIKsFit6D35elC0McvYM "http://www.zoobrass.dk/?fbclid=IwAR3NfqTpL5wv4zeu7tQqo9xF-inMO7sBV6JjUnFkIKsFit6D35elC0McvYM")<br>
+
+[Facebook](https://www.facebook.com/zoobrass/ "https://www.facebook.com/zoobrass/")<br>
+
+<strong>Booking: </strong> bandmanager@zoobrass.dk <br>

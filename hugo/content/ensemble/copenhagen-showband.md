@@ -23,8 +23,8 @@ Bandet er 100 % mobilt og spiller uden forstærkning, og kan derfor  spille hvor
 
 Se og hør meget mere på:
 
+[Facebook](https://www.facebook.com/CopenhagenShowband/ "https://www.facebook.com/CopenhagenShowband/")<br>
+
 [Instagram](https://www.instagram.com/copenhagenshowband/?hl=da "https://www.instagram.com/copenhagenshowband/?hl=da")<br>
 
 [Website](www.copenhagenshowband.dk "www.copenhagenshowband.dk")<br>
-
-[Facebook](https://www.facebook.com/CopenhagenShowband/ "https://www.facebook.com/CopenhagenShowband/")<br>

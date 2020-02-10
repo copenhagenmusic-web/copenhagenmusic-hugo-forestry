@@ -13,7 +13,7 @@ title = "Beat That Blue"
 weight = 1
 
 +++
-Beat That Blue serverer storswingende superhits fra et halvt århundredes pop- og rockhistorie med stemmekraften fra ca. 25 erfarne vokalister i alderen 20-45 år. 
+Beat That Blue serverer storswingende superhits fra et halvt århundredes pop- og rockhistorie med stemmekraften fra ca. 25 erfarne vokalister i alderen 20-45 år.
 
 Når Beat That Blue er på scenen, står menuen ikke på kammertoner og salmesang, men veldrejede rock-, pop- og soulhits af sværvægtere som U2, Michael Jackson og Coldplay, arrangeret i korversioner, der enten giver dig dansefeber eller en klump i halsen.
 
@@ -24,6 +24,8 @@ Vi holder jævnligt koncerter i København og er klar til at optræde med kort v
 <strong>Er du det næste nye medlem: </strong> nytmedlem@beat-that-blue.dk
 
 Se og hør meget mere på:
+
+[Instagram](https://www.instagram.com/beatthatblue/?hl=da "https://www.instagram.com/beatthatblue/?hl=da")<br>
 
 [Website](http://www.beat-that-blue.dk/kontakt/ "http://www.beat-that-blue.dk/kontakt/")<br>
 

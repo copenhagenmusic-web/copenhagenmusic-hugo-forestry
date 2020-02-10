@@ -13,25 +13,31 @@ title = "DRK!"
 weight = 6
 
 +++
-Riot jazz. Brass punk. 
+Riot jazz. Brass punk.
 
-Episke råb, rap og hornmusik for fuld smadder. Tourettes-riot-jazz uden så meget pis.  
+Episke råb, rap og hornmusik for fuld smadder. Tourettes-riot-jazz uden så meget pis.
 
 Trompet:  
 Christian Bille Brøndum  
 Georg Pirrung  
 Mikkel Madsen-Østerbye  
-Thomas Behrndtz   
-   
+Thomas Behrndtz
+
 Trombone:  
-Klement Kløtzl   
-Anders Vold  
-   
-Sousafon:   
-Danni  Østergaard  
-   
+Klement Kløtzl  
+Anders Vold
+
+Sousafon:  
+Danni  Østergaard
+
 Trommer:  
-Jesper Kildebogaard  
-   
+Jesper Kildebogaard
+
 Musikalsk mastermind:  
-Claus Semrau  
+Claus Semrau'
+
+<strong>Booking: </strong> kontakt@drkbrass.dk <br>
+
+Se og hør meget mere på:
+
+[Facebook](https://www.facebook.com/DRKBRASS/ "https://www.facebook.com/DRKBRASS/")<br>

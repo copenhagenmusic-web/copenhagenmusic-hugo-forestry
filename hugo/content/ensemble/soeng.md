@@ -13,6 +13,12 @@ title = "SØNG"
 weight = 9
 
 +++
-SØNG er et rytmisk kor, der holder til i København og ledes af Anna Mose (IKI m.fl.). SØNGs numre spænder over alternativ eller skæv pop/rock og eksperimenterende musik; kunstnere som Beach House og Kavinsky kan findes på repertoiret. 
+SØNG er et rytmisk kor, der holder til i København og ledes af Anna Mose (IKI m.fl.). SØNGs numre spænder over alternativ eller skæv pop/rock og eksperimenterende musik; kunstnere som Beach House og Kavinsky kan findes på repertoiret.
 
-Koret er somregel ledsaget af et dygtigt band. 
+Koret er somregel ledsaget af et dygtigt band.
+
+Se og hør meget mere på:
+
+[Facebook](https://www.facebook.com/soengkor/ "https://www.facebook.com/soengkor/")<br>
+
+<strong>Booking: </strong> soengkor@gmail.com <br>

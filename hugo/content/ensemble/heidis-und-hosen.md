@@ -22,3 +22,11 @@ Musikken er publikumsvenlig og inddragende, og vi har altid en sprechstallmeiste
 Vores repertoire består blandt andet af musik fra kendte kunstnere som Britney Spears, Madonna og DJ Ötzi, men vi spiller selvfølgelig også de klassiske festsange som "Du burde købe dig en tyrolerhat", "Vi skåler for vores venner" og "Se Venedig og dø".
 
 Heidis und Hosen er et stort og energisk polkaband med rytme og humor, der uden tvivl vil få alle op af stolene og løfte ølglassene.
+
+Se og hør meget mere på:
+
+[Website](http://heidisundhosen.dk/?fbclid=IwAR0yo3AK4JGOJNpij2eHXikSAHvP7blxWybwIGUk1FttrqGA7I5p-pa5KHg "http://heidisundhosen.dk/?fbclid=IwAR0yo3AK4JGOJNpij2eHXikSAHvP7blxWybwIGUk1FttrqGA7I5p-pa5KHg")<br>
+
+[Facebook](https://www.facebook.com/Heidisundhosen/ "https://www.facebook.com/Heidisundhosen/")<br>
+
+[Instagram](https://www.instagram.com/heidisundhosen/?hl=da "https://www.instagram.com/heidisundhosen/?hl=da")<br>
